@@ -1,0 +1,10401 @@
+﻿{
+	"operation": [
+		{
+			"id": "0",
+			"name": "OP RAGNAR/O-AP",
+			"group": "オペレーション切替:",
+			"message": "APの値を指定し、条件を満たした場合にオペレーションを起動します。",
+			"parameters": [
+				{
+					"name": "残りAP",
+					"default": "25000",
+					"parameters": [
+						"0",
+						"50000"
+					]
+				}
+			]
+		},
+		{
+			"id": "1",
+			"name": "OP LAWRENCE/O-TME",
+			"group": "オペレーション切替:",
+			"message": "戦闘の残り時間を指定し、条件を満たした場合にオペレーションを起動します。",
+			"parameters": [
+				{
+					"name": "残り時間(秒)",
+					"default": "300",
+					"parameters": [
+						"0",
+						"600"
+					]
+				}
+			]
+		},
+		{
+			"id": "2",
+			"name": "OP CLIVE/O-EQA",
+			"group": "オペレーション切替:",
+			"message": "搭載している武器の状態を指定し、全ての条件を満たした場合にオペレーションを起動します。",
+			"parameters": [
+				{
+					"name": "搭載位置",
+					"default": "R ARM UNIT",
+					"parameters": [
+						"指定しない",
+						"R ARM UNIT",
+						"L ARM UNIT",
+						"R HANGER UNIT",
+						"L HANGER UNIT",
+						"SHOULDER UNIT",
+						"WEAPON ARMS",
+						"OVERED WEAPON"
+					]
+				},
+				{
+					"name": "搭載位置",
+					"default": "指定しない",
+					"parameters": [
+						"指定しない",
+						"R ARM UNIT",
+						"L ARM UNIT",
+						"R HANGER UNIT",
+						"L HANGER UNIT",
+						"SHOULDER UNIT",
+						"WEAPON ARMS",
+						"OVERED WEAPON"
+					]
+				},
+				{
+					"name": "搭載位置",
+					"default": "指定しない",
+					"parameters": [
+						"指定しない",
+						"R ARM UNIT",
+						"L ARM UNIT",
+						"R HANGER UNIT",
+						"L HANGER UNIT",
+						"SHOULDER UNIT",
+						"WEAPON ARMS",
+						"OVERED WEAPON"
+					]
+				},
+				{
+					"name": "搭載位置",
+					"default": "指定しない",
+					"parameters": [
+						"指定しない",
+						"R ARM UNIT",
+						"L ARM UNIT",
+						"R HANGER UNIT",
+						"L HANGER UNIT",
+						"SHOULDER UNIT",
+						"WEAPON ARMS",
+						"OVERED WEAPON"
+					]
+				},
+				{
+					"name": "搭載位置",
+					"default": "指定しない",
+					"parameters": [
+						"指定しない",
+						"R ARM UNIT",
+						"L ARM UNIT",
+						"R HANGER UNIT",
+						"L HANGER UNIT",
+						"SHOULDER UNIT",
+						"WEAPON ARMS",
+						"OVERED WEAPON"
+					]
+				}
+			]
+		},
+		{
+			"id": "3",
+			"name": "OP ALVIN/O-FRD",
+			"group": "オペレーション切替:",
+			"message": "残っている「味方ACの数」を指定し、条件を満たした場合にオペレーションを起動します。",
+			"parameters": [
+				{
+					"name": "残り味方AC",
+					"default": "2",
+					"parameters": [
+						"0",
+						"4"
+					]
+				}
+			]
+		},
+		{
+			"id": "4",
+			"name": "OP LLOYD/O-ENE",
+			"group": "オペレーション切替:",
+			"message": "残っている「敵のACの数」を指定し、条件を満たした場合にオペレーションを起動します。",
+			"parameters": [
+				{
+					"name": "残り敵AC",
+					"default": "2",
+					"parameters": [
+						"0",
+						"4"
+					]
+				}
+			]
+		},
+		{
+			"id": "5",
+			"name": "OP SIMON/O-CMP",
+			"group": "オペレーション切替:",
+			"message": "残っている味方と敵のACの数を比較し、条件を満たした場合にオペレーションを起動します。",
+			"parameters": [
+				{
+					"name": "比較条件",
+					"default": "敵＞味方",
+					"parameters": [
+						"敵＞味方",
+						"味方＞敵",
+						"敵≧味方",
+						"味方≧敵"
+					]
+				}
+			]
+		},
+		{
+			"id": "6",
+			"name": "OP BERTIL/O-KCT",
+			"group": "オペレーション切替:",
+			"message": "属性・防御力を指定し、条件に該当する敵がターゲットとなった場合にオペレーションを起動します。",
+			"parameters": [
+				{
+					"name": "防御属性",
+					"default": "KE",
+					"parameters": [
+						"KE",
+						"CE",
+						"TE",
+						"ALL"
+					]
+				},
+				{
+					"name": "防御力",
+					"default": "2000",
+					"parameters": [
+						"0",
+						"5000"
+					]
+				},
+				{
+					"name": "防御判定基準",
+					"default": "以下",
+					"parameters": [
+						"以下",
+						"以上"
+					]
+				},
+				{
+					"name": "脚部タイプ",
+					"default": "中量二脚",
+					"parameters": [
+						"軽量二脚",
+						"中量二脚",
+						"重量二脚",
+						"軽量逆関節",
+						"重量逆関節",
+						"四脚",
+						"タンク",
+						"ANY"
+					]
+				}
+			]
+		}
+	],
+	"category": {
+		"moving": [
+			{
+				"id": "0",
+				"name": "CA BARUCH/MVPR1",
+				"group": "移動カテゴリ:[固定]",
+				"message": "固定型の移動カテゴリチップです。下層スロットのチップを実行します。",
+				"numberOfChips": "1",
+				"parameters": []
+			},
+			{
+				"id": "1",
+				"name": "CA BARUCH/MVPR3",
+				"group": "移動カテゴリ:[比率]",
+				"message": "比率型の移動カテゴリチップです。下層スロットのチップを指定した割合で選択・実行します。",
+				"numberOfChips": "3",
+				"parameters": [
+					{
+						"name": "スロット1比率",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スロット2比率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スロット3比率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "CA BARUCH/MVPR5",
+				"group": "移動カテゴリ:[比率]",
+				"message": "比率型の移動カテゴリチップです。スロット数の多い拡張型です。",
+				"numberOfChips": "5",
+				"parameters": [
+					{
+						"name": "スロット1比率",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スロット2比率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スロット3比率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スロット4比率",
+						"default": "20",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スロット5比率",
+						"default": "10",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "CA GEORG/MVOR3",
+				"group": "移動カテゴリ:[順列]",
+				"message": "順列型の移動カテゴリチップです。下層スロットのチップを左側から順に実行します。",
+				"numberOfChips": "3",
+				"parameters": []
+			},
+			{
+				"id": "4",
+				"name": "CA GEORG/MVOR5",
+				"group": "移動カテゴリ:[順列]",
+				"message": "順列型の移動カテゴリチップです。スロット数の多い拡張型です。",
+				"numberOfChips": "5",
+				"parameters": []
+			}
+		],
+		"right-arm": [
+			{
+				"id": "0",
+				"name": "CA EDMUND/RAIF1",
+				"group": "右腕攻撃カテゴリ:[固定]",
+				"message": "固定型の右腕攻撃カテゴリチップです。下層スロットに設定されたチップを実行します。",
+				"numberOfChips": "1",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "CA EDMUND/RAIF3",
+				"group": "右腕攻撃カテゴリ:[条件]",
+				"message": "条件型の右腕攻撃カテゴリチップです。下層スロットのチップを、指定間隔で左側から順に条件判定し、合致した時点で実行します。",
+				"numberOfChips": "3",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "CA EDMUND/RAIF5",
+				"group": "右腕攻撃カテゴリ:[条件]",
+				"message": "条件型の右腕攻撃カテゴリチップです。スロット数の多い拡張型です。",
+				"numberOfChips": "5",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			}
+		],
+		"left-arm": [
+			{
+				"id": "0",
+				"name": "CA EDMUND/LAIF1",
+				"group": "左腕攻撃カテゴリ:[固定]",
+				"message": "固定型の左腕攻撃カテゴリチップです。下層スロットに設定されたチップを実行します。",
+				"numberOfChips": "1",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "CA EDMUND/LAIF3",
+				"group": "左腕攻撃カテゴリ:[条件]",
+				"message": "条件型の左腕攻撃カテゴリチップです。下層スロットのチップを、指定間隔で左側から順に条件判定し、合致した時点で実行します。",
+				"numberOfChips": "3",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "CA EDMUND/LAIF5",
+				"group": "左腕攻撃カテゴリ:[条件]",
+				"message": "条件型の左腕攻撃カテゴリチップです。スロット数の多い拡張型です。",
+				"numberOfChips": "5",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			}
+		],
+		"shoulder": [
+			{
+				"id": "0",
+				"name": "CA EDMUND/SUIF1",
+				"group": "肩部攻撃カテゴリ:[固定]",
+				"message": "固定型の肩部攻撃カテゴリチップです。下層スロットに設定されたチップを実行します。",
+				"numberOfChips": "1",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "CA EDMUND/SUIF3",
+				"group": "肩部攻撃カテゴリ:[条件]",
+				"message": "条件型の肩部攻撃カテゴリチップです。下層スロットのチップを、指定間隔で左側から順に条件判定し、合致した時点で実行します。",
+				"numberOfChips": "3",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "CA EDMUND/SUIF5",
+				"group": "肩部攻撃カテゴリ:[条件]",
+				"message": "条件型の肩部攻撃カテゴリチップです。スロット数の多い拡張型です。",
+				"numberOfChips": "5",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			}
+		],
+		"recognition": [
+			{
+				"id": "0",
+				"name": "CA MARTIN/REC-1",
+				"group": "認識カテゴリ:[固定]",
+				"message": "固定型の認識カテゴリチップです。下層スロットに設定されたチップを実行します。",
+				"numberOfChips": "1",
+				"parameters": []
+			},
+			{
+				"id": "1",
+				"name": "CA MARTIN/REC-3",
+				"group": "認識カテゴリ:[並列]",
+				"message": "並列型の認識カテゴリチップです。下層スロットのチップ全てが同時に有効になります。",
+				"numberOfChips": "3",
+				"parameters": []
+			},
+			{
+				"id": "2",
+				"name": "CA MARTIN/REC-5",
+				"group": "認識カテゴリ:[並列]",
+				"message": "並列型の認識カテゴリチップです。スロット数の多い拡張型です。",
+				"numberOfChips": "5",
+				"parameters": []
+			}
+		],
+		"target-evaluation": [
+			{
+				"id": "0",
+				"name": "CA EDMUND/TGIF1",
+				"group": "ターゲット評価カテゴリ:[固定]",
+				"message": "固定型のターゲット評価カテゴリチップです。下層スロットに設定されたチップを実行します。",
+				"numberOfChips": "1",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "CA EDMUND/TGIF3",
+				"group": "ターゲット評価カテゴリ:[条件]",
+				"message": "条件型のターゲット評価カテゴリチップです。下層スロットのチップを、指定間隔で左側から順に条件判定し、合致した時点で実行します。",
+				"numberOfChips": "3",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "CA EDMUND/TGIF5",
+				"group": "ターゲット評価カテゴリ:[条件]",
+				"message": "条件型のターゲット評価カテゴリチップです。スロット数の多い拡張型です。",
+				"numberOfChips": "5",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			}
+		],
+		"dodge": [
+			{
+				"id": "0",
+				"name": "CA MARTIN/AVD-1",
+				"group": "回避カテゴリ:[固定]",
+				"message": "固定型の回避カテゴリチップです。下層スロットに設定されたチップを実行します。",
+				"numberOfChips": "1",
+				"parameters": []
+			},
+			{
+				"id": "1",
+				"name": "CA MARTIN/AVD-3",
+				"group": "回避カテゴリ:[並列]",
+				"message": "並列型の回避カテゴリチップです。下層スロットのチップ全てが同時に有効になります。",
+				"numberOfChips": "3",
+				"parameters": []
+			},
+			{
+				"id": "2",
+				"name": "CA MARTIN/AVD-5",
+				"group": "回避カテゴリ:[並列]",
+				"message": "並列型の回避カテゴリチップです。スロット数の多い拡張型です。",
+				"numberOfChips": "5",
+				"parameters": []
+			}
+		],
+		"special-moving": [
+			{
+				"id": "0",
+				"name": "CA BARUCH/EMPR1",
+				"group": "特殊移動カテゴリ:[固定]",
+				"message": "固定型の特殊移動カテゴリチップです。下層スロットに設定されたチップを実行します。",
+				"numberOfChips": "1",
+				"parameters": []
+			},
+			{
+				"id": "1",
+				"name": "CA BARUCH/EMPR3",
+				"group": "特殊移動カテゴリ:[比率]",
+				"message": "比率型の特殊移動カテゴリチップです。下層スロットのチップを、指定した割合で選択、実行します。",
+				"numberOfChips": "3",
+				"parameters": [
+					{
+						"name": "スロット1比率",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スロット2比率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スロット3比率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "CA BARUCH/EMPR5",
+				"group": "特殊移動カテゴリ:[比率]",
+				"message": "比率型の特殊移動カテゴリチップです。スロット数の多い拡張型です。",
+				"numberOfChips": "5",
+				"parameters": [
+					{
+						"name": "スロット1比率",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スロット2比率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スロット3比率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スロット4比率",
+						"default": "20",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スロット5比率",
+						"default": "10",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "CA EDMUND/EMIF3",
+				"group": "特殊移動カテゴリ:[条件]",
+				"message": "条件型の特殊移動カテゴリチップです。下層スロットのチップを、指定間隔で左側から順に条件判定し、合致した時点で実行します。",
+				"numberOfChips": "3",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "CA EDMUND/EMIF5",
+				"group": "特殊移動カテゴリ:[条件]",
+				"message": "条件型の特殊移動カテゴリチップです。スロット数の多い拡張型です。",
+				"numberOfChips": "5",
+				"parameters": [
+					{
+						"name": "アクションチップ更新間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"10.0"
+						]
+					}
+				]
+			}
+		],
+		"special-action": [
+			{
+				"id": "0",
+				"name": "CA MARTIN/EXA-1",
+				"group": "特殊行動カテゴリ:[固定]",
+				"message": "固定型の特殊行動カテゴリチップです。下層スロットに設定されたチップを実行します。",
+				"numberOfChips": "1",
+				"parameters": []
+			},
+			{
+				"id": "1",
+				"name": "CA MARTIN/EXA-3",
+				"group": "特殊行動カテゴリ:[並列]",
+				"message": "並列型の特殊行動カテゴリチップです。下層スロットの全てが同時に有効になります。",
+				"numberOfChips": "3",
+				"parameters": []
+			},
+			{
+				"id": "2",
+				"name": "CA MARTIN/EXA-5",
+				"group": "特殊行動カテゴリ:[並列]",
+				"message": "並列型の特殊行動カテゴリチップです。スロット数の多い拡張型です。",
+				"numberOfChips": "5",
+				"parameters": []
+			}
+		]
+	},
+	"action": {
+		"moving": [
+			{
+				"id": "0",
+				"name": "MV EMILIO/KD01",
+				"group": "移動アクション:[距離][近]",
+				"message": "近距離戦闘型のチップです。ターゲットから、指定距離を維持するように移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "50",
+						"parameters": [
+							"5",
+							"100"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "MV EMILIO/KD02",
+				"group": "移動アクション:[距離][近?中]",
+				"message": "近?中距離戦闘型のチップです。ターゲットから、指定距離を維持するように移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"200"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "MV EMILIO/KD03",
+				"group": "移動アクション:[距離][中]",
+				"message": "中距離戦闘型のチップです。ターゲットから、指定距離を維持するように移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "MV EMILIO/KD04",
+				"group": "移動アクション:[距離][中?遠]",
+				"message": "中?遠距離戦闘型のチップです。ターゲットから、指定距離を維持するように移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "MV EMILIO/KD05",
+				"group": "移動アクション:[距離][遠]",
+				"message": "遠距離戦闘型のチップです。ターゲットから、指定距離を維持するように移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"600"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "30",
+						"parameters": [
+							"0",
+							"60"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "5",
+				"name": "MV EMILIO/KD06",
+				"group": "移動アクション:[距離][超遠]",
+				"message": "超遠距離戦闘型のチップです。ターゲットから、指定距離を維持するように移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "750",
+						"parameters": [
+							"600",
+							"900"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "60",
+						"parameters": [
+							"0",
+							"120"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "6",
+				"name": "MV AYRTON/MR011",
+				"group": "移動アクション:[前方移動][近][左]",
+				"message": "近距離戦闘型のチップです。ターゲットの前方・左方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "50",
+						"parameters": [
+							"5",
+							"100"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "30",
+						"parameters": [
+							"0",
+							"60"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "7",
+				"name": "MV AYRTON/MR012",
+				"group": "移動アクション:[前方移動][近][右]",
+				"message": "近距離戦闘型のチップです。ターゲットの前方・右方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "50",
+						"parameters": [
+							"5",
+							"100"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-30",
+						"parameters": [
+							"-60",
+							"0"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "8",
+				"name": "MV AYRTON/MR013",
+				"group": "移動アクション:[回り込み移動][近][左]",
+				"message": "近距離戦闘型のチップです。ターゲットの後方・左方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "50",
+						"parameters": [
+							"5",
+							"100"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "120",
+						"parameters": [
+							"60",
+							"180"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "9",
+				"name": "MV AYRTON/MR014",
+				"group": "移動アクション:[回り込み移動][近][右]",
+				"message": "近距離戦闘型のチップです。ターゲットの後方・右方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "50",
+						"parameters": [
+							"5",
+							"100"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-120",
+						"parameters": [
+							"-180",
+							"-60"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "10",
+				"name": "MV AYRTON/MR021",
+				"group": "移動アクション:[前方移動][近?中][左]",
+				"message": "近?中距離戦闘型のチップです。ターゲットの前方・左方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"200"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "30",
+						"parameters": [
+							"0",
+							"60"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "11",
+				"name": "MV AYRTON/MR022",
+				"group": "移動アクション:[前方移動][近?中][右]",
+				"message": "近?中距離戦闘型のチップです。ターゲットの前方・右方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"200"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-30",
+						"parameters": [
+							"-60",
+							"0"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "12",
+				"name": "MV AYRTON/MR023",
+				"group": "移動アクション:[回り込み移動][近?中][左]",
+				"message": "近?中距離戦闘型のチップです。ターゲットの後方・左方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"200"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "120",
+						"parameters": [
+							"60",
+							"180"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "13",
+				"name": "MV AYRTON/MR024",
+				"group": "移動アクション:[回り込み移動][近?中][右]",
+				"message": "近?中距離戦闘型のチップです。ターゲットの後方・右方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"200"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-120",
+						"parameters": [
+							"-180",
+							"-60"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "14",
+				"name": "MV AYRTON/MR031",
+				"group": "移動アクション:[前方移動][中][左]",
+				"message": "中距離戦闘型のチップです。ターゲットの前方・左方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "30",
+						"parameters": [
+							"0",
+							"60"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "15",
+				"name": "MV AYRTON/MR032",
+				"group": "移動アクション:[前方移動][中][右]",
+				"message": "中距離戦闘型のチップです。ターゲットの前方・右方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-30",
+						"parameters": [
+							"-60",
+							"0"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "16",
+				"name": "MV AYRTON/MR033",
+				"group": "移動アクション:[回り込み移動][中][左]",
+				"message": "中距離戦闘型のチップです。ターゲットの後方・左方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "120",
+						"parameters": [
+							"60",
+							"180"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "17",
+				"name": "MV AYRTON/MR034",
+				"group": "移動アクション:[回り込み移動][中][右]",
+				"message": "中距離戦闘型のチップです。ターゲットの後方・右方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-120",
+						"parameters": [
+							"-180",
+							"-60"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "18",
+				"name": "MV AYRTON/MR041",
+				"group": "移動アクション:[前方移動][遠][左]",
+				"message": "遠距離戦闘型のチップです。ターゲットの前方・左方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "30",
+						"parameters": [
+							"0",
+							"60"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "19",
+				"name": "MV AYRTON/MR042",
+				"group": "移動アクション:[前方移動][遠][右]",
+				"message": "遠距離戦闘型のチップです。ターゲットの前方・右方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-30",
+						"parameters": [
+							"-60",
+							"0"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "20",
+				"name": "MV AYRTON/MR043",
+				"group": "移動アクション:[回り込み移動][遠][左]",
+				"message": "遠距離戦闘型のチップです。ターゲットの後方・左方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "120",
+						"parameters": [
+							"60",
+							"180"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "21",
+				"name": "MV AYRTON/MR044",
+				"group": "移動アクション:[回り込み移動][遠][右]",
+				"message": "遠距離戦闘型のチップです。ターゲットの後方・右方向に移動します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-120",
+						"parameters": [
+							"-180",
+							"-60"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "22",
+				"name": "MV KIMI/RKD11",
+				"group": "移動アクション:[ジグザグ移動][近][左]",
+				"message": "近距離戦闘型のチップです。ターゲットの左方向に移動しつつ距離を維持します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "45",
+						"parameters": [
+							"0",
+							"90"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "23",
+				"name": "MV KIMI/RKD12",
+				"group": "移動アクション:[ジグザグ移動][近][右]",
+				"message": "近距離戦闘型のチップです。ターゲットの右方向に移動しつつ距離を維持します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-45",
+						"parameters": [
+							"-90",
+							"0"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "24",
+				"name": "MV KIMI/RKD21",
+				"group": "移動アクション:[ジグザグ移動][近?中][左]",
+				"message": "近?中距離戦闘型のチップです。ターゲットの左方向に移動しつつ距離を維持します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"200"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "45",
+						"parameters": [
+							"0",
+							"90"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "25",
+				"name": "MV KIMI/RKD22",
+				"group": "移動アクション:[ジグザグ移動][近?中][右]",
+				"message": "近?中距離戦闘型のチップです。ターゲットの右方向に移動しつつ距離を維持します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"200"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-45",
+						"parameters": [
+							"-90",
+							"0"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "26",
+				"name": "MV KIMI/RKD31",
+				"group": "移動アクション:[ジグザグ移動][中][左]",
+				"message": "中距離戦闘型のチップです。ターゲットの左方向に移動しつつ距離を維持します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "45",
+						"parameters": [
+							"0",
+							"90"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "27",
+				"name": "MV KIMI/RKD32",
+				"group": "移動アクション:[ジグザグ移動][中][右]",
+				"message": "中距離戦闘型のチップです。ターゲットの右方向に移動しつつ距離を維持します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-45",
+						"parameters": [
+							"-90",
+							"0"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "28",
+				"name": "MV KIMI/RKD41",
+				"group": "移動アクション:[ジグザグ移動][中?遠][左]",
+				"message": "中?遠距離戦闘型のチップです。ターゲットの左方向に移動しつつ距離を維持します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "45",
+						"parameters": [
+							"0",
+							"90"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "29",
+				"name": "MV KIMI/RKD42",
+				"group": "移動アクション:[ジグザグ移動][中?遠][右]",
+				"message": "近?中距離戦闘型のチップです。ターゲットの右方向に移動しつつ距離を維持します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-45",
+						"parameters": [
+							"-90",
+							"0"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "30",
+				"name": "MV KIMI/RKD51",
+				"group": "移動アクション:[ジグザグ移動][遠][左]",
+				"message": "遠距離戦闘型のチップです。ターゲットの左方向に移動しつつ距離を維持します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"600"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "45",
+						"parameters": [
+							"0",
+							"90"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			},
+			{
+				"id": "31",
+				"name": "MV KIMI/RKD52",
+				"group": "移動アクション:[ジグザグ移動][遠][右]",
+				"message": "遠距離戦闘型のチップです。ターゲットの右方向に移動しつつ距離を維持します。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"30.0"
+						]
+					},
+					{
+						"name": "目的距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"600"
+						]
+					},
+					{
+						"name": "不確定距離",
+						"default": "15",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "相対高度",
+						"default": "0",
+						"parameters": [
+							"-100",
+							"100"
+						]
+					},
+					{
+						"name": "目的角度",
+						"default": "-45",
+						"parameters": [
+							"-90",
+							"0"
+						]
+					},
+					{
+						"name": "不確定角度",
+						"default": "5",
+						"parameters": [
+							"0",
+							"10"
+						]
+					}
+				]
+			}
+		],
+		"right-arm": [
+			{
+				"id": "0",
+				"name": "RA JAMES/R1STD",
+				"group": "右腕攻撃アクション:[汎用]",
+				"message": "近距離戦向けの一般的なARM UNIT用チップです。HAND GUNなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "RA JAMES/R2STD",
+				"group": "右腕攻撃アクション:[汎用]",
+				"message": "近～中距離戦向けの一般的なARM UNIT用チップです。BATTLE RIFLEなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "RA JAMES/R3STD",
+				"group": "右腕攻撃アクション:[汎用]",
+				"message": "中～遠距離戦向けの一般的なARM UNIT用チップです。RIFLEなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "RA JAMES/R4STD",
+				"group": "右腕攻撃アクション:[汎用]",
+				"message": "遠距離戦向けの一般的なARM UNIT用チップです。SNIPER RIFLEなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "RA JACK/R1NLC",
+				"group": "右腕攻撃アクション:[ノーロック]",
+				"message": "HEAT HOWITZERの使用に適したチップです。近距離向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "45",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "45",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "5",
+				"name": "RA JACK/R2NLC",
+				"group": "右腕攻撃アクション:[ノーロック]",
+				"message": "HEAT HOWITZERの使用に適したチップです。距離・角度が調整され、近～中距離向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"400"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"400"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "6",
+				"name": "RA MAX/R1ENS",
+				"group": "右腕攻撃アクション:[EN]",
+				"message": "TE属性のARM UNIT用チップです。近距離向けに設定されており、PULSE GUNなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "7",
+				"name": "RA MAX/R2ENS",
+				"group": "右腕攻撃アクション:[EN]",
+				"message": "TE属性のARM UNIT用チップです。近～中距離向けに設定されており、PULSE MACHINEGUNなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "8",
+				"name": "RA MAX/R3ENS",
+				"group": "右腕攻撃アクション:[EN]",
+				"message": "TE属性のARM UNIT用チップです。中～遠距離向けに設定されており、PLASMA GUNなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "9",
+				"name": "RA MAX/R4ENS",
+				"group": "右腕攻撃アクション:[EN]",
+				"message": "TE属性のARM UNIT用チップです。遠距離向けに設定されており、LASER RIFLEなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "10",
+				"name": "RA LARRY/R1CHG",
+				"group": "右腕攻撃アクション:[EN][チャージ]",
+				"message": "LASER RIFLEの使用に適したチップです。近距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "11",
+				"name": "RA LARRY/R2CHG",
+				"group": "右腕攻撃アクション:[EN][チャージ]",
+				"message": "LASER RIFLEの使用に適したチップです。距離が調整され、近～中距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "12",
+				"name": "RA LARRY/R3CHG",
+				"group": "右腕攻撃アクション:[EN][チャージ]",
+				"message": "LASER RIFLEの使用に適したチップです。距離が調整され、中～遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "13",
+				"name": "RA LARRY/R4CHG",
+				"group": "右腕攻撃アクション:[EN][チャージ]",
+				"message": "LASER RIFLEの使用に適したチップです。距離が調整され、遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "14",
+				"name": "RA EZZARD/R1FIX",
+				"group": "右腕攻撃アクション:[構え]",
+				"message": "構えが発生するARM UNIT用チップです。近距離戦向けに設定されており、AUTO CANNONなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"300"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "15",
+				"name": "RA EZZARD/R2FIX",
+				"group": "右腕攻撃アクション:[構え]",
+				"message": "構えが発生するARM UNIT用チップです。近～中距離戦向けに設定されており、HEAT CANNONなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"400"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"150"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "16",
+				"name": "RA EZZARD/R3FIX",
+				"group": "右腕攻撃アクション:[構え]",
+				"message": "構えが発生するARM UNIT用チップです。中～遠距離戦向けに設定されており、CANNONなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"500"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "17",
+				"name": "RA EZZARD/R4FIX",
+				"group": "右腕攻撃アクション:[構え]",
+				"message": "構えが発生するARM UNIT用チップです。遠距離戦向けに設定されており、LASER CANNON、RAIL CANNONなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"800"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "300",
+						"parameters": [
+							"0",
+							"350"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "18",
+				"name": "RA LENNOX/R1FXN",
+				"group": "右腕攻撃アクション:[構え][ノーロック]",
+				"message": "HOWITZERの使用に適したチップです。近距離向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"300"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "45",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "45",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "19",
+				"name": "RA LENNOX/R2FXN",
+				"group": "右腕攻撃アクション:[構え][ノーロック]",
+				"message": "HOWITZERの使用に適したチップです。距離・角度が調整され、近～中距離向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"400"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"150"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "35",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "35",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "20",
+				"name": "RA LENNOX/R3FXN",
+				"group": "右腕攻撃アクション:[構え][ノーロック]",
+				"message": "SNIPER CANNONの使用に適したチップです。中～遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"500"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "25",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "25",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "21",
+				"name": "RA LENNOX/R4FXN",
+				"group": "右腕攻撃アクション:[構え][ノーロック]",
+				"message": "SNIPER CANNONの使用に適したチップです。距離・角度が調整され、遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"800"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "300",
+						"parameters": [
+							"0",
+							"350"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "20",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "20",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "22",
+				"name": "RA LENNOX/R5FXN",
+				"group": "右腕攻撃アクション:[構え][ノーロック]",
+				"message": "SNIPER CANNONの使用に適したチップです。距離・角度が調整され、超遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "500",
+						"parameters": [
+							"300",
+							"700"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "1000",
+						"parameters": [
+							"800",
+							"1200"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "1000",
+						"parameters": [
+							"800",
+							"1400"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "500",
+						"parameters": [
+							"0",
+							"700"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "90",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "15",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "15",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "23",
+				"name": "RA PRIMO/R1FXE",
+				"group": "右腕攻撃アクション:[構え][EN]",
+				"message": "PULSE CANNONの使用に適したチップです。近距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"300"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "24",
+				"name": "RA PRIMO/R2FXE",
+				"group": "右腕攻撃アクション:[構え][EN]",
+				"message": "PULSE CANNONの使用に適したチップです。距離が調整され、近～中距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"400"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"150"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "25",
+				"name": "RA EVANDER/R3FXC",
+				"group": "右腕攻撃アクション:[構え][EN][チャージ]",
+				"message": "LASER CANNON、RAIL CANNONの使用に適したチップです。中～遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"500"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "26",
+				"name": "RA EVANDER/R4FXC",
+				"group": "右腕攻撃アクション:[構え][EN][チャージ]",
+				"message": "LASER CANNON、RAIL CANNONの使用に適したチップです。距離が調整され、遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"800"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "300",
+						"parameters": [
+							"0",
+							"350"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "27",
+				"name": "RA EVANDER/R5FXC",
+				"group": "右腕攻撃アクション:[構え][EN][チャージ]",
+				"message": "LASER CANNON、RAIL CANNONの使用に適したチップです。距離が調整され、超遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "500",
+						"parameters": [
+							"300",
+							"700"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "1000",
+						"parameters": [
+							"800",
+							"1200"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "1000",
+						"parameters": [
+							"800",
+							"1400"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "500",
+						"parameters": [
+							"0",
+							"700"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "90",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "28",
+				"name": "RA CASSIUS/R1FTE",
+				"group": "右腕攻撃アクション:[格闘][EN]",
+				"message": "LASER BLADEの使用に適したチップです。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "50",
+						"parameters": [
+							"10",
+							"100"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "50",
+						"parameters": [
+							"10",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "40",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"360"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"360"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "29",
+				"name": "RA MICHAEL/R1FGT",
+				"group": "右腕攻撃アクション:[格闘]",
+				"message": "HEAT PILE、BLADEの使用に適したチップです。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "50",
+						"parameters": [
+							"10",
+							"100"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "50",
+						"parameters": [
+							"10",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"360"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"360"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "30",
+				"name": "RA JOE/R1SNS",
+				"group": "右腕攻撃アクション:[セントリー]",
+				"message": "SENTRY GUNの使用に適したチップです。近距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"250"
+						]
+					},
+					{
+						"name": "配置制限距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "再射出条件数",
+						"default": "3",
+						"parameters": [
+							"0",
+							"4"
+						]
+					}
+				]
+			},
+			{
+				"id": "31",
+				"name": "RA JOE/R2SNS",
+				"group": "右腕攻撃アクション:[セントリー]",
+				"message": "SENTRY GUNの使用に適したチップです。近～中距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "配置制限距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "再射出条件数",
+						"default": "3",
+						"parameters": [
+							"0",
+							"4"
+						]
+					}
+				]
+			},
+			{
+				"id": "32",
+				"name": "RA JOE/R3SNS",
+				"group": "右腕攻撃アクション:[セントリー]",
+				"message": "SENTRY GUNの使用に適したチップです。MISSILEタイプを想定し、中～遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "配置制限距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "再射出条件数",
+						"default": "3",
+						"parameters": [
+							"0",
+							"4"
+						]
+					}
+				]
+			},
+			{
+				"id": "33",
+				"name": "RA JOE/R4SNS",
+				"group": "右腕攻撃アクション:[セントリー]",
+				"message": "SENTRY GUNの使用に適したチップです。MISSILEタイプを想定し、遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "配置制限距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "再射出条件数",
+						"default": "3",
+						"parameters": [
+							"0",
+							"4"
+						]
+					}
+				]
+			},
+			{
+				"id": "34",
+				"name": "RA VITALI/RS-A",
+				"group": "右腕攻撃アクション:[シールド]",
+				"message": "SHIELDの使用に適したチップです。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"R HANGER UNIT",
+							"WEAPON ARMS"
+						]
+					},
+					{
+						"name": "強制装備残AP",
+						"default": "5000",
+						"parameters": [
+							"0",
+							"50000"
+						]
+					},
+					{
+						"name": "装備条件 被弾量",
+						"default": "2000",
+						"parameters": [
+							"0",
+							"10000"
+						]
+					},
+					{
+						"name": "装備条件 被弾属性",
+						"default": "ANY",
+						"parameters": [
+							"ANY",
+							"KE",
+							"CE",
+							"TE"
+						]
+					},
+					{
+						"name": "装備解除条件",
+						"default": "10.0",
+						"parameters": [
+							"0.0",
+							"60.0"
+						]
+					}
+				]
+			}
+		],
+		"left-arm": [
+			{
+				"id": "0",
+				"name": "LA JAMES/L1STD",
+				"group": "左腕攻撃アクション:[汎用]",
+				"message": "近距離戦向けの一般的なARM UNIT用チップです。HAND GUNなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "LA JAMES/L2STD",
+				"group": "左腕攻撃アクション:[汎用]",
+				"message": "近～中距離戦向けの一般的なARM UNIT用チップです。BATTLE RIFLEなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "LA JAMES/L3STD",
+				"group": "左腕攻撃アクション:[汎用]",
+				"message": "中～遠距離戦向けの一般的なARM UNIT用チップです。RIFLEなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "LA JAMES/L4STD",
+				"group": "左腕攻撃アクション:[汎用]",
+				"message": "遠距離戦向けの一般的なARM UNIT用チップです。SNIPER RIFLEなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "LA JACK/L1NLC",
+				"group": "左腕攻撃アクション:[ノーロック]",
+				"message": "HEAT HOWITZERの使用に適したチップです。近距離向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "45",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "45",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "5",
+				"name": "LA JACK/L2NLC",
+				"group": "左腕攻撃アクション:[ノーロック]",
+				"message": "HEAT HOWITZERの使用に適したチップです。距離・角度が調整され、近～中距離向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"400"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"400"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "6",
+				"name": "LA MAX/L1ENS",
+				"group": "左腕攻撃アクション:[EN]",
+				"message": "TE属性のARM UNIT用チップです。近距離向けに設定されており、PULSE GUNなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "7",
+				"name": "LA MAX/L2ENS",
+				"group": "左腕攻撃アクション:[EN]",
+				"message": "TE属性のARM UNIT用チップです。近～中距離向けに設定されており、PULSE MACHINEGUNなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "8",
+				"name": "LA MAX/L3ENS",
+				"group": "左腕攻撃アクション:[EN]",
+				"message": "TE属性のARM UNIT用チップです。中～遠距離向けに設定されており、PLASMA GUNなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "9",
+				"name": "LA MAX/L4ENS",
+				"group": "左腕攻撃アクション:[EN]",
+				"message": "TE属性のARM UNIT用チップです。遠距離向けに設定されており、LASER RIFLEなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "10",
+				"name": "LA LARRY/L1CHG",
+				"group": "左腕攻撃アクション:[EN][チャージ]",
+				"message": "LASER RIFLEの使用に適したチップです。近距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "11",
+				"name": "LA LARRY/L2CHG",
+				"group": "左腕攻撃アクション:[EN][チャージ]",
+				"message": "LASER RIFLEの使用に適したチップです。距離が調整され、近～中距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "12",
+				"name": "LA LARRY/L3CHG",
+				"group": "左腕攻撃アクション:[EN][チャージ]",
+				"message": "LASER RIFLEの使用に適したチップです。距離が調整され、中～遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "13",
+				"name": "LA LARRY/L4CHG",
+				"group": "左腕攻撃アクション:[EN][チャージ]",
+				"message": "LASER RIFLEの使用に適したチップです。距離が調整され、遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "14",
+				"name": "LA EZZARD/L1FIX",
+				"group": "左腕攻撃アクション:[構え]",
+				"message": "構えが発生するARM UNIT用チップです。近距離戦向けに設定されており、AUTO CANNONなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"300"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "15",
+				"name": "LA EZZARD/L2FIX",
+				"group": "左腕攻撃アクション:[構え]",
+				"message": "構えが発生するARM UNIT用チップです。近～中距離戦向けに設定されており、HEAT CANNONなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"400"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"150"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "16",
+				"name": "LA EZZARD/L3FIX",
+				"group": "左腕攻撃アクション:[構え]",
+				"message": "構えが発生するARM UNIT用チップです。中～遠距離戦向けに設定されており、CANNONなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"500"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "17",
+				"name": "LA EZZARD/L4FIX",
+				"group": "左腕攻撃アクション:[構え]",
+				"message": "構えが発生するARM UNIT用チップです。遠距離戦向けに設定されており、LASER CANNON、RAIL CANNONなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"800"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "300",
+						"parameters": [
+							"0",
+							"350"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "18",
+				"name": "LA LENNOX/L1FXN",
+				"group": "左腕攻撃アクション:[構え][ノーロック]",
+				"message": "HOWITZERの使用に適したチップです。近距離向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"300"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "45",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "45",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "19",
+				"name": "LA LENNOX/L2FXN",
+				"group": "左腕攻撃アクション:[構え][ノーロック]",
+				"message": "HOWITZERの使用に適したチップです。距離・角度が調整され、近～中距離向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"400"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"150"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "35",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "35",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "20",
+				"name": "LA LENNOX/L3FXN",
+				"group": "左腕攻撃アクション:[構え][ノーロック]",
+				"message": "SNIPER CANNONの使用に適したチップです。中～遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"500"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "25",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "25",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "21",
+				"name": "LA LENNOX/L4FXN",
+				"group": "左腕攻撃アクション:[構え][ノーロック]",
+				"message": "SNIPER CANNONの使用に適したチップです。距離・角度が調整され、遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"800"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "300",
+						"parameters": [
+							"0",
+							"350"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "20",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "20",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "22",
+				"name": "LA LENNOX/L5FXN",
+				"group": "左腕攻撃アクション:[構え][ノーロック]",
+				"message": "SNIPER CANNONの使用に適したチップです。距離・角度が調整され、超遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "500",
+						"parameters": [
+							"300",
+							"700"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "1000",
+						"parameters": [
+							"800",
+							"1200"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "1000",
+						"parameters": [
+							"800",
+							"1400"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "500",
+						"parameters": [
+							"0",
+							"700"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "90",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "15",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "15",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "23",
+				"name": "LA PRIMO/L1FXE",
+				"group": "左腕攻撃アクション:[構え][EN]",
+				"message": "PULSE CANNONの使用に適したチップです。近距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"300"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "24",
+				"name": "LA PRIMO/L2FXE",
+				"group": "左腕攻撃アクション:[構え][EN]",
+				"message": "PULSE CANNONの使用に適したチップです。距離が調整され、近～中距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"400"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"150"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "25",
+				"name": "LA EVANDER/L3FXC",
+				"group": "左腕攻撃アクション:[構え][EN][チャージ]",
+				"message": "LASER CANNON、RAIL CANNONの使用に適したチップです。中～遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"500"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"250"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "26",
+				"name": "LA EVANDER/L4FXC",
+				"group": "左腕攻撃アクション:[構え][EN][チャージ]",
+				"message": "LASER CANNON、RAIL CANNONの使用に適したチップです。距離が調整され、遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"800"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "300",
+						"parameters": [
+							"0",
+							"350"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "27",
+				"name": "LA EVANDER/L5FXC",
+				"group": "左腕攻撃アクション:[構え][EN][チャージ]",
+				"message": "LASER CANNON、RAIL CANNONの使用に適したチップです。距離が調整され、超遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "構え判定",
+						"default": "判定なし",
+						"parameters": [
+							"判定なし",
+							"射線"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "500",
+						"parameters": [
+							"300",
+							"700"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "1000",
+						"parameters": [
+							"800",
+							"1200"
+						]
+					},
+					{
+						"name": "構え開始距離",
+						"default": "1000",
+						"parameters": [
+							"800",
+							"1400"
+						]
+					},
+					{
+						"name": "構え解除距離",
+						"default": "500",
+						"parameters": [
+							"0",
+							"700"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "90",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃時チャージ率",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "28",
+				"name": "LA CASSIUS/L1FTE",
+				"group": "左腕攻撃アクション:[格闘][EN]",
+				"message": "LASER BLADEの使用に適したチップです。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "50",
+						"parameters": [
+							"10",
+							"100"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "50",
+						"parameters": [
+							"10",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃限界EN率",
+						"default": "40",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"360"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"360"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "29",
+				"name": "LA MICHAEL/L1FGT",
+				"group": "左腕攻撃アクション:[格闘]",
+				"message": "HEAT PILE、BLADEの使用に適したチップです。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "50",
+						"parameters": [
+							"10",
+							"100"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "50",
+						"parameters": [
+							"10",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"360"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"360"
+						]
+					},
+					{
+						"name": "FCS異常時反応",
+						"default": "OFF",
+						"parameters": [
+							"ON",
+							"OFF"
+						]
+					}
+				]
+			},
+			{
+				"id": "30",
+				"name": "LA JOE/L1SNS",
+				"group": "左腕攻撃アクション:[セントリー]",
+				"message": "SENTRY GUNの使用に適したチップです。近距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "150",
+						"parameters": [
+							"100",
+							"250"
+						]
+					},
+					{
+						"name": "配置制限距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "再射出条件数",
+						"default": "3",
+						"parameters": [
+							"0",
+							"4"
+						]
+					}
+				]
+			},
+			{
+				"id": "31",
+				"name": "LA JOE/L2SNS",
+				"group": "左腕攻撃アクション:[セントリー]",
+				"message": "SENTRY GUNの使用に適したチップです。近～中距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "配置制限距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "再射出条件数",
+						"default": "3",
+						"parameters": [
+							"0",
+							"4"
+						]
+					}
+				]
+			},
+			{
+				"id": "32",
+				"name": "LA JOE/L3SNS",
+				"group": "左腕攻撃アクション:[セントリー]",
+				"message": "SENTRY GUNの使用に適したチップです。MISSILEタイプを想定し、中～遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "配置制限距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "再射出条件数",
+						"default": "3",
+						"parameters": [
+							"0",
+							"4"
+						]
+					}
+				]
+			},
+			{
+				"id": "33",
+				"name": "LA JOE/L4SNS",
+				"group": "左腕攻撃アクション:[セントリー]",
+				"message": "SENTRY GUNの使用に適したチップです。MISSILEタイプを想定し、遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "最短装備距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長装備距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "配置制限距離",
+						"default": "100",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "再射出条件数",
+						"default": "3",
+						"parameters": [
+							"0",
+							"4"
+						]
+					}
+				]
+			},
+			{
+				"id": "34",
+				"name": "LA VITALI/LS-A",
+				"group": "左腕攻撃アクション:[シールド]",
+				"message": "SHIELDの使用に適したチップです。",
+				"parameters": [
+					{
+						"name": "搭載位置",
+						"default": "L ARM UNIT",
+						"parameters": [
+							"L ARM UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "強制装備残AP",
+						"default": "5000",
+						"parameters": [
+							"0",
+							"50000"
+						]
+					},
+					{
+						"name": "装備条件 被弾量",
+						"default": "2000",
+						"parameters": [
+							"0",
+							"10000"
+						]
+					},
+					{
+						"name": "装備条件 被弾属性",
+						"default": "ANY",
+						"parameters": [
+							"ANY",
+							"KE",
+							"CE",
+							"TE"
+						]
+					},
+					{
+						"name": "装備解除条件",
+						"default": "10.0",
+						"parameters": [
+							"0.0",
+							"60.0"
+						]
+					}
+				]
+			}
+		],
+		"shoulder": [
+			{
+				"id": "0",
+				"name": "SU EDGAR/S1MSL",
+				"group": "肩部攻撃アクション:[ミサイル][単発]",
+				"message": "単発型のMISSILEの使用に適したチップです。近距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "SU EDGAR/S2MSL",
+				"group": "肩部攻撃アクション:[ミサイル][単発]",
+				"message": "単発型のMISSILEの使用に適したチップです。近?中距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "SU EDGAR/S3MSL",
+				"group": "肩部攻撃アクション:[ミサイル][単発]",
+				"message": "単発型のMISSILEの使用に適したチップです。中?遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "SU EDGAR/S4MSL",
+				"group": "肩部攻撃アクション:[ミサイル][単発]",
+				"message": "単発型のMISSILEの使用に適したチップです。遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "SU REMBRNDT/S1MMS",
+				"group": "肩部攻撃アクション:[ミサイル]",
+				"message": "近距離戦向けのMISSILE用チップです。SHORT RANGE MISSILEなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "指定発射数",
+						"default": "6",
+						"parameters": [
+							"1",
+							"6"
+						]
+					}
+				]
+			},
+			{
+				"id": "5",
+				"name": "SU REMBRNDT/S2MMS",
+				"group": "肩部攻撃アクション:[ミサイル]",
+				"message": "近?中距離戦向けのMISSILE用チップです。MIDDLE MISSILEなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "指定発射数",
+						"default": "6",
+						"parameters": [
+							"1",
+							"6"
+						]
+					}
+				]
+			},
+			{
+				"id": "6",
+				"name": "SU REMBRNDT/S3MMS",
+				"group": "肩部攻撃アクション:[ミサイル]",
+				"message": "中?遠距離戦向けのMISSILE用チップです。VERTICAL MISSILEなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "指定発射数",
+						"default": "6",
+						"parameters": [
+							"1",
+							"6"
+						]
+					}
+				]
+			},
+			{
+				"id": "7",
+				"name": "SU REMBRNDT/S4MMS",
+				"group": "肩部攻撃アクション:[ミサイル]",
+				"message": "遠距離戦向けのMISSILE用チップです。HIGH SPEED MISSILEなどに最も適しています。",
+				"parameters": [
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "指定発射数",
+						"default": "6",
+						"parameters": [
+							"1",
+							"6"
+						]
+					}
+				]
+			},
+			{
+				"id": "8",
+				"name": "SU FERDINAND/S1RKB",
+				"group": "肩部攻撃アクション:[ノーロック]",
+				"message": "ROCKET、BOMB DISPENSERの使用に適したチップです。近距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "最短攻撃距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"50"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "150",
+						"parameters": [
+							"50",
+							"200"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "60",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "60",
+						"parameters": [
+							"0",
+							"180"
+						]
+					}
+				]
+			},
+			{
+				"id": "9",
+				"name": "SU FERDINAND/S2RKB",
+				"group": "肩部攻撃アクション:[ノーロック]",
+				"message": "ROCKET、BOMB DISPENSERの使用に適したチップです。距離が調整され、近?中距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "最短攻撃距離",
+						"default": "100",
+						"parameters": [
+							"50",
+							"150"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "250",
+						"parameters": [
+							"200",
+							"300"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "60",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "60",
+						"parameters": [
+							"0",
+							"180"
+						]
+					}
+				]
+			},
+			{
+				"id": "10",
+				"name": "SU FERDINAND/S3RKB",
+				"group": "肩部攻撃アクション:[ノーロック]",
+				"message": "ROCKETの使用に適したチップです。中?遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "最短攻撃距離",
+						"default": "200",
+						"parameters": [
+							"150",
+							"250"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"400"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "70",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "60",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "60",
+						"parameters": [
+							"0",
+							"180"
+						]
+					}
+				]
+			},
+			{
+				"id": "11",
+				"name": "SU FERDINAND/S4RKB",
+				"group": "肩部攻撃アクション:[ノーロック]",
+				"message": "ROCKETの使用に適したチップです。距離が調整され、遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "最短攻撃距離",
+						"default": "300",
+						"parameters": [
+							"250",
+							"350"
+						]
+					},
+					{
+						"name": "最長攻撃距離",
+						"default": "500",
+						"parameters": [
+							"400",
+							"650"
+						]
+					},
+					{
+						"name": "攻撃演算性能",
+						"default": "80",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "攻撃左右範囲",
+						"default": "60",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "攻撃上下範囲",
+						"default": "60",
+						"parameters": [
+							"0",
+							"180"
+						]
+					}
+				]
+			},
+			{
+				"id": "12",
+				"name": "SU PAUL/S1CHF",
+				"group": "肩部攻撃アクション:[チャフ]",
+				"message": "OPTICAL CHAFFの使用に適したチップです。近距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "射出条件 距離",
+						"default": "150",
+						"parameters": [
+							"0",
+							"300"
+						]
+					},
+					{
+						"name": "射出条件 時間",
+						"default": "2.0",
+						"parameters": [
+							"0.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "13",
+				"name": "SU PAUL/S3CHF",
+				"group": "肩部攻撃アクション:[チャフ]",
+				"message": "OPTICAL CHAFFの使用に適したチップです。距離が調整され、中距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "射出条件 距離",
+						"default": "350",
+						"parameters": [
+							"300",
+							"500"
+						]
+					},
+					{
+						"name": "射出条件 時間",
+						"default": "3.5",
+						"parameters": [
+							"0.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "14",
+				"name": "SU PAUL/S5CHF",
+				"group": "肩部攻撃アクション:[チャフ]",
+				"message": "OPTICAL CHAFFの使用に適したチップです。距離が調整され、遠距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "射出条件 距離",
+						"default": "600",
+						"parameters": [
+							"500",
+							"900"
+						]
+					},
+					{
+						"name": "射出条件 時間",
+						"default": "5.0",
+						"parameters": [
+							"0.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "15",
+				"name": "SU HENRI/S2CGN",
+				"group": "肩部攻撃アクション:[カウンターガン]",
+				"message": "COUNTER GUNの使用に適したチップです。近距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "使用距離",
+						"default": "150",
+						"parameters": [
+							"0",
+							"300"
+						]
+					}
+				]
+			},
+			{
+				"id": "16",
+				"name": "SU HENRI/S3CGN",
+				"group": "肩部攻撃アクション:[カウンターガン]",
+				"message": "COUNTER GUNの使用に適したチップです。距離が調整され、中距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "使用距離",
+						"default": "300",
+						"parameters": [
+							"0",
+							"600"
+						]
+					}
+				]
+			},
+			{
+				"id": "17",
+				"name": "SU SALVADOR/S2CGE",
+				"group": "肩部攻撃アクション:[カウンターガン][EN]",
+				"message": "TE属性のCOUNTER GUNの使用に適したチップです。近距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "使用距離",
+						"default": "150",
+						"parameters": [
+							"0",
+							"300"
+						]
+					},
+					{
+						"name": "使用限界EN率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "18",
+				"name": "SU SALVADOR/S3CGE",
+				"group": "肩部攻撃アクション:[カウンターガン][EN]",
+				"message": "TE属性のCOUNTER GUNの使用に適したチップです。距離が調整され、中距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "使用距離",
+						"default": "300",
+						"parameters": [
+							"0",
+							"600"
+						]
+					},
+					{
+						"name": "使用限界EN率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "19",
+				"name": "SU PIETER/S2CWS",
+				"group": "肩部攻撃アクション:[CIWS]",
+				"message": "CIWSの使用に適したチップです。近距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "使用距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"300"
+						]
+					},
+					{
+						"name": "停止距離",
+						"default": "50",
+						"parameters": [
+							"0",
+							"200"
+						]
+					},
+					{
+						"name": "強制有効EN率",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "20",
+				"name": "SU PIETER/S4CWS",
+				"group": "肩部攻撃アクション:[CIWS]",
+				"message": "CIWSの使用に適したチップです。距離が調整され、中距離戦向けに設定されています。",
+				"parameters": [
+					{
+						"name": "使用距離",
+						"default": "400",
+						"parameters": [
+							"300",
+							"500"
+						]
+					},
+					{
+						"name": "停止距離",
+						"default": "50",
+						"parameters": [
+							"0",
+							"200"
+						]
+					},
+					{
+						"name": "強制有効EN率",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			}
+		],
+		"recognition": [
+			{
+				"id": "0",
+				"name": "RC RUDYARD/OPT33",
+				"group": "認識アクション:[不透過]",
+				"message": "光学タイプの認識チップです。光学タイプは低コストですが、障害物の背後にいる対象は認識できません。",
+				"parameters": [
+					{
+						"name": "認識距離",
+						"default": "280",
+						"parameters": [
+							"280",
+							"450"
+						]
+					},
+					{
+						"name": "認識角度",
+						"default": "90",
+						"parameters": [
+							"90",
+							"160"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "RC RUDYARD/OPT53",
+				"group": "認識アクション:[不透過]",
+				"message": "光学タイプの認識チップです。認識距離の長い遠距離型です。",
+				"parameters": [
+					{
+						"name": "認識距離",
+						"default": "500",
+						"parameters": [
+							"500",
+							"900"
+						]
+					},
+					{
+						"name": "認識角度",
+						"default": "20",
+						"parameters": [
+							"20",
+							"40"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "RC RUDYARD/OPT44",
+				"group": "認識アクション:[不透過]",
+				"message": "光学タイプの認識チップです。認識距離・角度のバランスがよい万能型です。",
+				"parameters": [
+					{
+						"name": "認識距離",
+						"default": "400",
+						"parameters": [
+							"400",
+							"600"
+						]
+					},
+					{
+						"name": "認識角度",
+						"default": "50",
+						"parameters": [
+							"50",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "RC RUDYARD/OPT35",
+				"group": "認識アクション:[不透過]",
+				"message": "光学タイプの認識チップです。認識角度の広い近距離型です。",
+				"parameters": [
+					{
+						"name": "認識距離",
+						"default": "200",
+						"parameters": [
+							"200",
+							"350"
+						]
+					},
+					{
+						"name": "認識角度",
+						"default": "140",
+						"parameters": [
+							"140",
+							"200"
+						]
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "RC RUDYARD/OPTX8",
+				"group": "認識アクション:[不透過]",
+				"message": "光学タイプの認識チップです。認識距離が極めて長い特化型です。",
+				"parameters": [
+					{
+						"name": "認識距離",
+						"default": "1000",
+						"parameters": [
+							"1000",
+							"1500"
+						]
+					},
+					{
+						"name": "認識角度",
+						"default": "8",
+						"parameters": [
+							"8",
+							"16"
+						]
+					}
+				]
+			},
+			{
+				"id": "5",
+				"name": "RC KUND/ACO5S",
+				"group": "認識アクション:[透過]",
+				"message": "ソナータイプの認識チップです。認識距離は短いですが、障害物越しに対象を認識可能です。",
+				"parameters": [
+					{
+						"name": "認識距離",
+						"default": "90",
+						"parameters": [
+							"90",
+							"150"
+						]
+					},
+					{
+						"name": "認識角度",
+						"default": "170",
+						"parameters": [
+							"170",
+							"200"
+						]
+					}
+				]
+			},
+			{
+				"id": "6",
+				"name": "RC KUND/ACOXS",
+				"group": "認識アクション:[透過]",
+				"message": "ソナータイプの認識チップです。認識距離を強化した遠距離型です。",
+				"parameters": [
+					{
+						"name": "認識距離",
+						"default": "140",
+						"parameters": [
+							"140",
+							"200"
+						]
+					},
+					{
+						"name": "認識角度",
+						"default": "60",
+						"parameters": [
+							"60",
+							"90"
+						]
+					}
+				]
+			},
+			{
+				"id": "7",
+				"name": "RC KUND/ACO8P",
+				"group": "認識アクション:[透過]",
+				"message": "ソナータイプの認識チップです。認識距離・角度のバランスがよい万能型です。",
+				"parameters": [
+					{
+						"name": "認識距離",
+						"default": "70",
+						"parameters": [
+							"70",
+							"120"
+						]
+					},
+					{
+						"name": "認識角度",
+						"default": "210",
+						"parameters": [
+							"210",
+							"240"
+						]
+					}
+				]
+			},
+			{
+				"id": "8",
+				"name": "RC KUND/ACO5C",
+				"group": "認識アクション:[透過]",
+				"message": "ソナータイプの認識チップです。認識角度の広い近距離型です。",
+				"parameters": [
+					{
+						"name": "認識距離",
+						"default": "40",
+						"parameters": [
+							"40",
+							"80"
+						]
+					},
+					{
+						"name": "認識角度",
+						"default": "240",
+						"parameters": [
+							"240",
+							"320"
+						]
+					}
+				]
+			},
+			{
+				"id": "9",
+				"name": "RC KUND/ACO8C",
+				"group": "認識アクション:[透過]",
+				"message": "ソナータイプの認識チップです。認識角度が極めて広い特化型です。",
+				"parameters": [
+					{
+						"name": "認識距離",
+						"default": "30",
+						"parameters": [
+							"30",
+							"50"
+						]
+					},
+					{
+						"name": "認識角度",
+						"default": "360",
+						"parameters": [
+							"360",
+							"360"
+						]
+					}
+				]
+			}
+		],
+		"target-evaluation": [
+			{
+				"id": "0",
+				"name": "TG LARS/T-DT1",
+				"group": "ターゲット評価アクション:[距離]",
+				"message": "優先する対象を、距離で判断する評価チップです。指定した値に、より近い距離にいる対象をターゲットにします。",
+				"parameters": [
+					{
+						"name": "評価距離",
+						"default": "0",
+						"parameters": [
+							"0",
+							"1000"
+						]
+					},
+					{
+						"name": "距離判定許容量",
+						"default": "100",
+						"parameters": [
+							"0",
+							"500"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "TG KLAUS/T-AP1",
+				"group": "ターゲット評価アクション:[AP]",
+				"message": "優先する対象を、APで判断する評価チップです。APの高低を指定し、条件に合致する方をターゲットにします。",
+				"parameters": [
+					{
+						"name": "評価AP",
+						"default": "低い",
+						"parameters": [
+							"低い",
+							"高い"
+						]
+					},
+					{
+						"name": "AP判定許容量",
+						"default": "5000",
+						"parameters": [
+							"0",
+							"20000"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "TG SERGEI/T-DF1",
+				"group": "ターゲット評価アクション:[防御力]",
+				"message": "優先する対象を、防御力で判断する評価チップです。属性の種類を指定し、指定属性の防御力が低い方をターゲットにします。",
+				"parameters": [
+					{
+						"name": "防御属性",
+						"default": "KE",
+						"parameters": [
+							"KE",
+							"CE",
+							"TE"
+						]
+					},
+					{
+						"name": "防御力判定許容量",
+						"default": "150",
+						"parameters": [
+							"0",
+							"500"
+						]
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "TG WILLIAM/T-DM-1",
+				"group": "ターゲット評価アクション:[被ダメージ]",
+				"message": "優先する対象を、相手から受けたダメージの量で判断する評価チップです。受けたダメージの多い・少ないを指定し、条件に合致する方をターゲットにします。",
+				"parameters": [
+					{
+						"name": "被弾量",
+						"default": "多い",
+						"parameters": [
+							"多い",
+							"少ない"
+						]
+					},
+					{
+						"name": "被弾量判定許容量",
+						"default": "2000",
+						"parameters": [
+							"0",
+							"10000"
+						]
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "TG CHARLES/T-LT1",
+				"group": "ターゲット評価アクション:[脚部タイプ]",
+				"message": "優先する対象を、脚部タイプで判断する評価チップです。脚部の種類を指定し、条件に合致する方をターゲットにします。",
+				"parameters": [
+					{
+						"name": "脚部タイプ",
+						"default": "中量二脚",
+						"parameters": [
+							"軽量二脚",
+							"中量二脚",
+							"重量二脚",
+							"軽量逆関節",
+							"重量逆関節",
+							"四脚",
+							"タンク"
+						]
+					}
+				]
+			},
+			{
+				"id": "5",
+				"name": "TG VAUGHAN/T-FR1",
+				"group": "ターゲット評価アクション:[連携]",
+				"message": "優先する対象を、味方との連携方法で判断する評価チップです。集中攻撃か個別攻撃かを指定し、条件に合致する方をターゲットにします。",
+				"parameters": [
+					{
+						"name": "共闘評価",
+						"default": "集中",
+						"parameters": [
+							"集中",
+							"個別"
+						]
+					}
+				]
+			},
+			{
+				"id": "6",
+				"name": "TG MAXIM/T-ET1",
+				"group": "ターゲット評価アクション:[種別]",
+				"message": "優先する対象を、敵の種類で判断する評価チップです。敵の種類を指定し、条件に合致する方をターゲットにします。",
+				"parameters": [
+					{
+						"name": "敵種別",
+						"default": "AC",
+						"parameters": [
+							"AC",
+							"砲台",
+							"サブターゲット",
+							"一般兵器"
+						]
+					}
+				]
+			}
+		],
+		"dodge": [
+			{
+				"id": "0",
+				"name": "AV HENDRIK/AH1DM",
+				"group": "ハイブースト回避アクション:[ダメージ]",
+				"message": "一定時間の間に指定のダメージを受けると、ハイブーストでの回避を行うチップです。ENの残量を優先します。",
+				"parameters": [
+					{
+						"name": "被弾量",
+						"default": "2000",
+						"parameters": [
+							"1",
+							"10000"
+						]
+					},
+					{
+						"name": "回避限界EN率",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "5.0",
+						"parameters": [
+							"0.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "AV HENDRIK/AH2DM",
+				"group": "ハイブースト回避アクション:[ダメージ]",
+				"message": "一定時間の間に指定のダメージを受けると、ハイブーストでの回避を行うチップです。ENを気にせず、回避を優先します。",
+				"parameters": [
+					{
+						"name": "被弾量",
+						"default": "200",
+						"parameters": [
+							"1",
+							"10000"
+						]
+					},
+					{
+						"name": "回避限界EN率",
+						"default": "20",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "2.0",
+						"parameters": [
+							"0.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "AV NILS/AH1LC",
+				"group": "ハイブースト回避アクション:[ロック]",
+				"message": "ロックされた状態が指定の時間継続すると、ハイブーストでの回避を行うチップです。ENの残量を優先します。",
+				"parameters": [
+					{
+						"name": "被ロック時間",
+						"default": "2.0",
+						"parameters": [
+							"0.1",
+							"10.0"
+						]
+					},
+					{
+						"name": "回避限界EN率",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "5.0",
+						"parameters": [
+							"0.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "AV NILS/AH2LC",
+				"group": "ハイブースト回避アクション:[ロック]",
+				"message": "ロックされた状態が指定の時間継続すると、ハイブーストでの回避を行うチップです。ENを気にせず、回避を優先します。",
+				"parameters": [
+					{
+						"name": "被ロック時間",
+						"default": "2.0",
+						"parameters": [
+							"0.1",
+							"10.0"
+						]
+					},
+					{
+						"name": "回避限界EN率",
+						"default": "20",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "2.0",
+						"parameters": [
+							"0.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "AV ALBERT/AH1JM",
+				"group": "ハイブースト回避アクション:[ジャマー]",
+				"message": "ジャマーを受けた状態が指定の時間継続すると、ハイブーストでの回避を行うチップです。ENの残量を優先します。",
+				"parameters": [
+					{
+						"name": "被ジャマー時間",
+						"default": "5.0",
+						"parameters": [
+							"0.1",
+							"10.0"
+						]
+					},
+					{
+						"name": "回避限界EN率",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "5.0",
+						"parameters": [
+							"0.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "5",
+				"name": "AV ALBERT/AH2JM",
+				"group": "ハイブースト回避アクション:[ジャマー]",
+				"message": "ジャマーを受けた状態が指定の時間継続すると、ハイブーストでの回避を行うチップです。ENを気にせず、回避を優先します。",
+				"parameters": [
+					{
+						"name": "被ジャマー時間",
+						"default": "5.0",
+						"parameters": [
+							"0.1",
+							"10.0"
+						]
+					},
+					{
+						"name": "回避限界EN率",
+						"default": "20",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "2.0",
+						"parameters": [
+							"0.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "6",
+				"name": "AV ENRICO/AH1ST",
+				"group": "ハイブースト回避アクション:[反動]",
+				"message": "反動によって機動力が低下すると、ハイブーストでの回避を行うチップです。ENの残量を優先します。",
+				"parameters": [
+					{
+						"name": "回避限界EN率",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "5.0",
+						"parameters": [
+							"0.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "7",
+				"name": "AV ENRICO/AH2ST",
+				"group": "ハイブースト回避アクション:[反動]",
+				"message": "反動によって機動力が低下すると、ハイブーストでの回避を行うチップです。ENを気にせず、回避を優先します。",
+				"parameters": [
+					{
+						"name": "回避限界EN率",
+						"default": "20",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "2.0",
+						"parameters": [
+							"0.0",
+							"10.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "8",
+				"name": "AV WOLFGANG/ABF1D",
+				"group": "空中制御アクション:[ダメージ]",
+				"message": "空中機動をコントロールするチップです。一定時間の間に指定のダメージを受けると、地上に降ります。",
+				"parameters": [
+					{
+						"name": "被弾量",
+						"default": "2000",
+						"parameters": [
+							"1",
+							"10000"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "9",
+				"name": "AV WOLFGANG/ABF2D",
+				"group": "空中制御アクション:[ダメージ]",
+				"message": "空中機動をコントロールするチップです。一定時間の間に指定のダメージを受けると、地上に降ります。ダメージにより敏感に反応します。",
+				"parameters": [
+					{
+						"name": "被弾量",
+						"default": "200",
+						"parameters": [
+							"1",
+							"10000"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "10",
+				"name": "AV PAVEL/ABF1L",
+				"group": "空中制御アクション:[ロック]",
+				"message": "空中機動をコントロールするチップです。ロックされた状態が指定の時間継続すると、地上に降ります。",
+				"parameters": [
+					{
+						"name": "被ロック時間",
+						"default": "5.0",
+						"parameters": [
+							"0.1",
+							"10.0"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "11",
+				"name": "AV PAVEL/ABF2L",
+				"group": "空中制御アクション:[ロック]",
+				"message": "空中機動をコントロールするチップです。ロックされた状態が指定の時間継続すると、地上に降ります。ロックオンにより敏感に反応します。",
+				"parameters": [
+					{
+						"name": "被ロック時間",
+						"default": "1.0",
+						"parameters": [
+							"0.1",
+							"10.0"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "12",
+				"name": "AV JULIAN/AJ1",
+				"group": "ジャンプ回避アクション:",
+				"message": "指定の時間が経過する事に、ジャンプを行うチップです。ジャンプの頻度が低く、ENの残量を優先します。",
+				"parameters": [
+					{
+						"name": "回避限界EN率",
+						"default": "65",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "10.0",
+						"parameters": [
+							"1.5",
+							"20.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "13",
+				"name": "AV JULIAN/AJ2",
+				"group": "ジャンプ回避アクション:",
+				"message": "指定の時間が経過する事に、ジャンプを行うチップです。",
+				"parameters": [
+					{
+						"name": "回避限界EN率",
+						"default": "45",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "5.0",
+						"parameters": [
+							"1.5",
+							"20.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "14",
+				"name": "AV JULIAN/AJ3",
+				"group": "ジャンプ回避アクション:",
+				"message": "指定の時間が経過する事に、ジャンプを行うチップです。ジャンプの頻度が高く、回避を優先します。",
+				"parameters": [
+					{
+						"name": "回避限界EN率",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "3.0",
+						"parameters": [
+							"1.5",
+							"20.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "15",
+				"name": "AV LEO/ABD1",
+				"group": "ブーストドライブ回避アクション:",
+				"message": "ブーストドライブの頻度をあげるチップです。範囲が狭く、ENの残量を優先します。",
+				"parameters": [
+					{
+						"name": "回避実行距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"1000"
+						]
+					},
+					{
+						"name": "回避実行角度",
+						"default": "60",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "回避限界EN率",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "16",
+				"name": "AV LEO/ABD2",
+				"group": "ブーストドライブ回避アクション:",
+				"message": "ブーストドライブの頻度をあげるチップです。",
+				"parameters": [
+					{
+						"name": "回避実行距離",
+						"default": "300",
+						"parameters": [
+							"0",
+							"1000"
+						]
+					},
+					{
+						"name": "回避実行角度",
+						"default": "90",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "回避限界EN率",
+						"default": "40",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "17",
+				"name": "AV LEO/ABD3",
+				"group": "ブーストドライブ回避アクション:",
+				"message": "ブーストドライブの頻度をあげるチップです。範囲が広く、回避を優先します。",
+				"parameters": [
+					{
+						"name": "回避実行距離",
+						"default": "400",
+						"parameters": [
+							"0",
+							"1000"
+						]
+					},
+					{
+						"name": "回避実行角度",
+						"default": "120",
+						"parameters": [
+							"0",
+							"180"
+						]
+					},
+					{
+						"name": "回避限界EN率",
+						"default": "20",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "18",
+				"name": "AV NORMAN/AHM1D",
+				"group": "ミサイル回避アクション:",
+				"message": "ミサイルに対して特殊な回避行動を行うチップです。使用する条件を、ミサイルとの距離と角度で指定します。範囲が狭く、ENの残量を優先します。",
+				"parameters": [
+					{
+						"name": "ミサイル反射性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "回避限界EN率",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "3.0",
+						"parameters": [
+							"0.1",
+							"10.0"
+						]
+					},
+					{
+						"name": "ミサイル反応範囲",
+						"default": "80",
+						"parameters": [
+							"0",
+							"160"
+						]
+					},
+					{
+						"name": "ミサイル回避方向",
+						"default": "右",
+						"parameters": [
+							"右",
+							"左",
+							"前",
+							"後"
+						]
+					}
+				]
+			},
+			{
+				"id": "19",
+				"name": "AV NORMAN/AHM2D",
+				"group": "ミサイル回避アクション:",
+				"message": "ミサイルに対して特殊な回避行動を行うチップです。使用する条件を、ミサイルとの距離と角度で指定します。",
+				"parameters": [
+					{
+						"name": "ミサイル反射性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "回避限界EN率",
+						"default": "40",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "2.0",
+						"parameters": [
+							"0.1",
+							"10.0"
+						]
+					},
+					{
+						"name": "ミサイル反応範囲",
+						"default": "120",
+						"parameters": [
+							"40",
+							"200"
+						]
+					},
+					{
+						"name": "ミサイル回避方向",
+						"default": "右",
+						"parameters": [
+							"右",
+							"左",
+							"前",
+							"後"
+						]
+					}
+				]
+			},
+			{
+				"id": "20",
+				"name": "AV NORMAN/AHM3D",
+				"group": "ミサイル回避アクション:",
+				"message": "ミサイルに対して特殊な回避行動を行うチップです。使用する条件を、ミサイルとの距離と角度で指定します。範囲が広く、回避を優先します。",
+				"parameters": [
+					{
+						"name": "ミサイル反射性能",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "回避限界EN率",
+						"default": "20",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "1.0",
+						"parameters": [
+							"0.1",
+							"10.0"
+						]
+					},
+					{
+						"name": "ミサイル反応範囲",
+						"default": "180",
+						"parameters": [
+							"120",
+							"240"
+						]
+					},
+					{
+						"name": "ミサイル回避方向",
+						"default": "右",
+						"parameters": [
+							"右",
+							"左",
+							"前",
+							"後"
+						]
+					}
+				]
+			}
+		],
+		"special-moving": [
+			{
+				"id": "0",
+				"name": "EXM LUDWIG/E-H-1",
+				"group": "ハイブースト移動アクション:",
+				"message": "ハイブーストでの高速接近を行うチップです。設定距離が長い遠距離型です。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"20.0"
+						]
+					},
+					{
+						"name": "目的地距離",
+						"default": "350",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "特殊移動限界EN率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "3.0",
+						"parameters": [
+							"0.0",
+							"30.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "EXM LUDWIG/E-H-2",
+				"group": "ハイブースト移動アクション:",
+				"message": "目的地よりも一定距離離れていた場合に、ハイブーストでの高速接近を行うチップです。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"20.0"
+						]
+					},
+					{
+						"name": "目的地距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "特殊移動限界EN率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "3.0",
+						"parameters": [
+							"0.0",
+							"30.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "EXM LUDWIG/E-H-3",
+				"group": "ハイブースト移動アクション:",
+				"message": "ハイブーストでの高速接近を行うチップです。設定距離が短い近距離型です。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"20.0"
+						]
+					},
+					{
+						"name": "目的地距離",
+						"default": "50",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "特殊移動限界EN率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "3.0",
+						"parameters": [
+							"0.0",
+							"30.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "EXM FRANTZ/E-G-1",
+				"group": "グライドブースト移動アクション:",
+				"message": "グライドブーストでの高速接近を行うチップです。設定距離が長い遠距離型です。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "8.0",
+						"parameters": [
+							"1.0",
+							"20.0"
+						]
+					},
+					{
+						"name": "目的地距離",
+						"default": "350",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "特殊移動限界EN率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "5.0",
+						"parameters": [
+							"0.0",
+							"30.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "EXM FRANTZ/E-G-2",
+				"group": "グライドブースト移動アクション:",
+				"message": "目的地よりも一定距離離れていた場合に、グライドブーストでの高速接近を行うチップです。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "8.0",
+						"parameters": [
+							"1.0",
+							"20.0"
+						]
+					},
+					{
+						"name": "目的地距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "特殊移動限界EN率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "5.0",
+						"parameters": [
+							"0.0",
+							"30.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "5",
+				"name": "EXM FRANTZ/E-G-3",
+				"group": "グライドブースト移動アクション:",
+				"message": "グライドブーストでの高速接近を行うチップです。設定距離が短い近距離型です。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "8.0",
+						"parameters": [
+							"1.0",
+							"20.0"
+						]
+					},
+					{
+						"name": "目的地距離",
+						"default": "50",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "特殊移動限界EN率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "アクション間隔",
+						"default": "5.0",
+						"parameters": [
+							"0.0",
+							"30.0"
+						]
+					}
+				]
+			},
+			{
+				"id": "6",
+				"name": "EXM JOHANN/E-B-1",
+				"group": "ブーストドライブ移動アクション:",
+				"message": "ブーストドライブでの高速接近の頻度をあげるチップです。設定距離が長い遠距離型です。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "8.0",
+						"parameters": [
+							"1.0",
+							"20.0"
+						]
+					},
+					{
+						"name": "目的地距離",
+						"default": "350",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "特殊移動限界EN率",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "7",
+				"name": "EXM JOHANN/E-B-2",
+				"group": "ブーストドライブ移動アクション:",
+				"message": "目的地よりも一定距離離れていた場合に、ブーストドライブでの高速接近の頻度をあげるチップです。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "8.0",
+						"parameters": [
+							"1.0",
+							"20.0"
+						]
+					},
+					{
+						"name": "目的地距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "特殊移動限界EN率",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "8",
+				"name": "EXM JOHANN/E-B-3",
+				"group": "ブーストドライブ移動アクション:",
+				"message": "ブーストドライブでの高速接近の頻度をあげるチップです。設定距離が短い近距離型です。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "8.0",
+						"parameters": [
+							"1.0",
+							"20.0"
+						]
+					},
+					{
+						"name": "目的地距離",
+						"default": "50",
+						"parameters": [
+							"0",
+							"500"
+						]
+					},
+					{
+						"name": "特殊移動限界EN率",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "9",
+				"name": "EXM IGOR/E-T-1",
+				"group": "捕捉移動アクション:",
+				"message": "ターゲットが指定範囲から外れた場合に、後退しつつ旋回する「捕捉行動」を行うチップです。範囲の狭い、近距離戦闘型です。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"20.0"
+						]
+					},
+					{
+						"name": "捕捉行動実行距離",
+						"default": "40",
+						"parameters": [
+							"10",
+							"200"
+						]
+					},
+					{
+						"name": "捕捉行動実行角度",
+						"default": "60",
+						"parameters": [
+							"10",
+							"180"
+						]
+					}
+				]
+			},
+			{
+				"id": "10",
+				"name": "EXM IGOR/E-T-2",
+				"group": "捕捉移動アクション:",
+				"message": "ターゲットが指定範囲から外れた場合に、後退しつつ旋回する「捕捉行動」を行うチップです。中距離戦闘型です。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"20.0"
+						]
+					},
+					{
+						"name": "捕捉行動実行距離",
+						"default": "70",
+						"parameters": [
+							"10",
+							"200"
+						]
+					},
+					{
+						"name": "捕捉行動実行角度",
+						"default": "90",
+						"parameters": [
+							"10",
+							"180"
+						]
+					}
+				]
+			},
+			{
+				"id": "11",
+				"name": "EXM IGOR/E-T-3",
+				"group": "捕捉移動アクション:",
+				"message": "ターゲットが指定範囲から外れた場合に、後退しつつ旋回する「捕捉行動」を行うチップです。範囲の広い、遠距離戦闘型です。",
+				"parameters": [
+					{
+						"name": "継続時間",
+						"default": "5.0",
+						"parameters": [
+							"1.0",
+							"20.0"
+						]
+					},
+					{
+						"name": "捕捉行動実行距離",
+						"default": "100",
+						"parameters": [
+							"10",
+							"200"
+						]
+					},
+					{
+						"name": "捕捉行動実行角度",
+						"default": "120",
+						"parameters": [
+							"10",
+							"180"
+						]
+					}
+				]
+			}
+		],
+		"special-action": [
+			{
+				"id": "0",
+				"name": "EXA GERD/EXBC2",
+				"group": "ブーストチャージアクション:",
+				"message": "ブーストチャージ用のチップです。セットすると、一定範囲内にターゲットがいる場合にブーストチャージを行います。",
+				"parameters": [
+					{
+						"name": "実行距離",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "実行範囲",
+						"default": "30",
+						"parameters": [
+							"0",
+							"170"
+						]
+					},
+					{
+						"name": "実行限界EN率",
+						"default": "40",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "実行間隔",
+						"default": "5",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "1",
+				"name": "EXA GERD/EXBC3",
+				"group": "ブーストチャージアクション:",
+				"message": "ブーストチャージ用のチップです。設定範囲が広く、より積極的にブーストチャージを行います。",
+				"parameters": [
+					{
+						"name": "実行距離",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "実行範囲",
+						"default": "100",
+						"parameters": [
+							"0",
+							"170"
+						]
+					},
+					{
+						"name": "実行限界EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "実行間隔",
+						"default": "3",
+						"parameters": [
+							"0",
+							"30"
+						]
+					},
+					{
+						"name": "反応性能",
+						"default": "25",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "2",
+				"name": "EXA JUST/EXSN2",
+				"group": "スキャンモードアクション:",
+				"message": "スキャンモード用のチップです。ENの残量を優先する、機動力優先型です。",
+				"parameters": [
+					{
+						"name": "強制スキャンモード距離",
+						"default": "1000",
+						"parameters": [
+							"0",
+							"2000"
+						]
+					},
+					{
+						"name": "スキャンモード起動EN率",
+						"default": "50",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スキャンモード解除EN率",
+						"default": "90",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "3",
+				"name": "EXA JUST/EXSN3",
+				"group": "スキャンモードアクション:",
+				"message": "スキャンモード用のチップです。セットすると、ENの残量に応じてスキャンモードを起動・解除します。",
+				"parameters": [
+					{
+						"name": "強制スキャンモード距離",
+						"default": "1000",
+						"parameters": [
+							"0",
+							"2000"
+						]
+					},
+					{
+						"name": "スキャンモード起動EN率",
+						"default": "30",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スキャンモード解除EN率",
+						"default": "60",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "4",
+				"name": "EXA JUST/EXSNX",
+				"group": "スキャンモードアクション:",
+				"message": "スキャンモード用のチップです。ENの残量を気にしない、戦闘優先型です。",
+				"parameters": [
+					{
+						"name": "強制スキャンモード距離",
+						"default": "1000",
+						"parameters": [
+							"0",
+							"2000"
+						]
+					},
+					{
+						"name": "スキャンモード起動EN率",
+						"default": "10",
+						"parameters": [
+							"0",
+							"100"
+						]
+					},
+					{
+						"name": "スキャンモード解除EN率",
+						"default": "40",
+						"parameters": [
+							"0",
+							"100"
+						]
+					}
+				]
+			},
+			{
+				"id": "5",
+				"name": "EXA KOCSIS/EXR10",
+				"group": "リコンアクション:",
+				"message": "RECON用のチップです。セットすると、一定時間ごとにRECONを射出します。",
+				"parameters": [
+					{
+						"name": "リコン使用間隔",
+						"default": "30",
+						"parameters": [
+							"1",
+							"60"
+						]
+					}
+				]
+			},
+			{
+				"id": "6",
+				"name": "EXA KOCSIS/EXR20",
+				"group": "リコンアクション:",
+				"message": "RECON用のチップです。発射間隔の短い高頻度型です。",
+				"parameters": [
+					{
+						"name": "リコン使用間隔",
+						"default": "10",
+						"parameters": [
+							"1",
+							"60"
+						]
+					}
+				]
+			},
+			{
+				"id": "7",
+				"name": "EXA KOCSIS/EXR30",
+				"group": "リコンアクション:",
+				"message": "RECON用のチップです。発射間隔の長い低頻度型です。",
+				"parameters": [
+					{
+						"name": "リコン使用間隔",
+						"default": "50",
+						"parameters": [
+							"1",
+							"60"
+						]
+					}
+				]
+			},
+			{
+				"id": "8",
+				"name": "EXA ADEMIR/EXP-D",
+				"group": "強制パージアクション:",
+				"message": "ターゲットとの距離によって、指定したARM UNITを強制的にパージするチップです。",
+				"parameters": [
+					{
+						"name": "パージ搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"L ARM UNIT",
+							"R HANGER UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "パージ距離",
+						"default": "150",
+						"parameters": [
+							"0",
+							"1000"
+						]
+					}
+				]
+			},
+			{
+				"id": "9",
+				"name": "EXA ADEMIR/EXP-T",
+				"group": "強制パージアクション:",
+				"message": "ターゲットとの距離と属性・防御力によって、指定したARM UNITを強制的にパージするチップです。",
+				"parameters": [
+					{
+						"name": "パージ搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"L ARM UNIT",
+							"R HANGER UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "パージ距離",
+						"default": "150",
+						"parameters": [
+							"0",
+							"1000"
+						]
+					},
+					{
+						"name": "防御属性",
+						"default": "KE",
+						"parameters": [
+							"KE",
+							"CE",
+							"TE"
+						]
+					},
+					{
+						"name": "防御力",
+						"default": "2000",
+						"parameters": [
+							"100",
+							"5000"
+						]
+					}
+				]
+			},
+			{
+				"id": "10",
+				"name": "EXA-ADEMIR/EXP-L",
+				"group": "強制パージアクション:",
+				"message": "ターゲットとの距離と、脚部タイプによって、指定したARM UNITを強制的にパージするチップです。",
+				"parameters": [
+					{
+						"name": "パージ搭載位置",
+						"default": "R ARM UNIT",
+						"parameters": [
+							"R ARM UNIT",
+							"L ARM UNIT",
+							"R HANGER UNIT",
+							"L HANGER UNIT"
+						]
+					},
+					{
+						"name": "パージ距離",
+						"default": "150",
+						"parameters": [
+							"0",
+							"1000"
+						]
+					},
+					{
+						"name": "脚部タイプ",
+						"default": "中量二脚",
+						"parameters": [
+							"軽量二脚",
+							"中量二脚",
+							"重量二脚",
+							"軽量逆関節",
+							"重量逆関節",
+							"四脚",
+							"タンク"
+						]
+					}
+				]
+			},
+			{
+				"id": "11",
+				"name": "WXA EUSEBIO/X0",
+				"group": "オーバードウェポンアクション:",
+				"message": "OVERED WEAPON用のチップです。GRIND BLADEの使用に適しています。",
+				"parameters": [
+					{
+						"name": "OW 装備距離",
+						"default": "700",
+						"parameters": [
+							"0",
+							"1500"
+						]
+					},
+					{
+						"name": "OW 発動距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"1500"
+						]
+					},
+					{
+						"name": "OW 左右角度",
+						"default": "60",
+						"parameters": [
+							"1",
+							"360"
+						]
+					},
+					{
+						"name": "OW 上下角度",
+						"default": "60",
+						"parameters": [
+							"1",
+							"360"
+						]
+					}
+				]
+			},
+			{
+				"id": "12",
+				"name": "WXA EUSEBIO/X1",
+				"group": "オーバードウェポンアクション:",
+				"message": "OVERED WEAPON用のチップです。MASS BLADEの使用に適しています。",
+				"parameters": [
+					{
+						"name": "OW 装備距離",
+						"default": "500",
+						"parameters": [
+							"0",
+							"1500"
+						]
+					},
+					{
+						"name": "OW 発動距離",
+						"default": "150",
+						"parameters": [
+							"0",
+							"1500"
+						]
+					},
+					{
+						"name": "OW 左右角度",
+						"default": "120",
+						"parameters": [
+							"1",
+							"360"
+						]
+					},
+					{
+						"name": "OW 上下角度",
+						"default": "90",
+						"parameters": [
+							"1",
+							"360"
+						]
+					}
+				]
+			},
+			{
+				"id": "13",
+				"name": "WXA EUSEBIO/X2",
+				"group": "オーバードウェポンアクション:",
+				"message": "OVERED WEAPON用のチップです。HUGE CANNONの使用に適しています。",
+				"parameters": [
+					{
+						"name": "OW 装備距離",
+						"default": "1500",
+						"parameters": [
+							"0",
+							"1500"
+						]
+					},
+					{
+						"name": "OW 発動距離",
+						"default": "1000",
+						"parameters": [
+							"0",
+							"1500"
+						]
+					},
+					{
+						"name": "OW 左右角度",
+						"default": "40",
+						"parameters": [
+							"1",
+							"360"
+						]
+					},
+					{
+						"name": "OW 上下角度",
+						"default": "40",
+						"parameters": [
+							"1",
+							"360"
+						]
+					}
+				]
+			},
+			{
+				"id": "14",
+				"name": "WXA EUSEBIO/X3",
+				"group": "オーバードウェポンアクション:",
+				"message": "OVERED WEAPON用のチップです。MULTIPLE PULSEの使用に適しています。",
+				"parameters": [
+					{
+						"name": "OW 装備距離",
+						"default": "500",
+						"parameters": [
+							"0",
+							"1500"
+						]
+					},
+					{
+						"name": "OW 発動距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"1500"
+						]
+					},
+					{
+						"name": "OW 左右角度",
+						"default": "240",
+						"parameters": [
+							"1",
+							"360"
+						]
+					},
+					{
+						"name": "OW 上下角度",
+						"default": "240",
+						"parameters": [
+							"1",
+							"360"
+						]
+					}
+				]
+			},
+			{
+				"id": "15",
+				"name": "WXA EUSEBIO/X4",
+				"group": "オーバードウェポンアクション:",
+				"message": "OVERED WEAPON用のチップです。HUGE MISSILEの使用に適しています。",
+				"parameters": [
+					{
+						"name": "OW 装備距離",
+						"default": "1200",
+						"parameters": [
+							"0",
+							"1500"
+						]
+					},
+					{
+						"name": "OW 発動距離",
+						"default": "800",
+						"parameters": [
+							"0",
+							"1500"
+						]
+					},
+					{
+						"name": "OW 左右角度",
+						"default": "120",
+						"parameters": [
+							"1",
+							"360"
+						]
+					},
+					{
+						"name": "OW 上下角度",
+						"default": "90",
+						"parameters": [
+							"1",
+							"360"
+						]
+					}
+				]
+			},
+			{
+				"id": "16",
+				"name": "WXA EUSEBIO/X5",
+				"group": "オーバードウェポンアクション:",
+				"message": "OVERED WEAPON用のチップです。HUGE BLADEの使用に適しています。",
+				"parameters": [
+					{
+						"name": "OW 装備距離",
+						"default": "700",
+						"parameters": [
+							"0",
+							"1500"
+						]
+					},
+					{
+						"name": "OW 発動距離",
+						"default": "200",
+						"parameters": [
+							"0",
+							"1500"
+						]
+					},
+					{
+						"name": "OW 左右角度",
+						"default": "120",
+						"parameters": [
+							"1",
+							"360"
+						]
+					},
+					{
+						"name": "OW 上下角度",
+						"default": "50",
+						"parameters": [
+							"1",
+							"360"
+						]
+					}
+				]
+			}
+		]
+	}
+}
