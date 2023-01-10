@@ -8,7 +8,7 @@
 				{
 					"name": "残りAP",
 					"default": "25000",
-					"parameters": [
+					"values": [
 						"0",
 						"50000"
 					]
@@ -23,7 +23,7 @@
 				{
 					"name": "残り時間(秒)",
 					"default": "300",
-					"parameters": [
+					"values": [
 						"0",
 						"600"
 					]
@@ -38,7 +38,7 @@
 				{
 					"name": "搭載位置",
 					"default": "R ARM UNIT",
-					"parameters": [
+					"values": [
 						"指定しない",
 						"R ARM UNIT",
 						"L ARM UNIT",
@@ -52,7 +52,7 @@
 				{
 					"name": "搭載位置",
 					"default": "指定しない",
-					"parameters": [
+					"values": [
 						"指定しない",
 						"R ARM UNIT",
 						"L ARM UNIT",
@@ -66,7 +66,7 @@
 				{
 					"name": "搭載位置",
 					"default": "指定しない",
-					"parameters": [
+					"values": [
 						"指定しない",
 						"R ARM UNIT",
 						"L ARM UNIT",
@@ -80,7 +80,7 @@
 				{
 					"name": "搭載位置",
 					"default": "指定しない",
-					"parameters": [
+					"values": [
 						"指定しない",
 						"R ARM UNIT",
 						"L ARM UNIT",
@@ -94,7 +94,7 @@
 				{
 					"name": "搭載位置",
 					"default": "指定しない",
-					"parameters": [
+					"values": [
 						"指定しない",
 						"R ARM UNIT",
 						"L ARM UNIT",
@@ -115,7 +115,7 @@
 				{
 					"name": "残り味方AC",
 					"default": "2",
-					"parameters": [
+					"values": [
 						"0",
 						"4"
 					]
@@ -130,7 +130,7 @@
 				{
 					"name": "残り敵AC",
 					"default": "2",
-					"parameters": [
+					"values": [
 						"0",
 						"4"
 					]
@@ -145,7 +145,7 @@
 				{
 					"name": "比較条件",
 					"default": "敵＞味方",
-					"parameters": [
+					"values": [
 						"敵＞味方",
 						"味方＞敵",
 						"敵≧味方",
@@ -162,7 +162,7 @@
 				{
 					"name": "防御属性",
 					"default": "KE",
-					"parameters": [
+					"values": [
 						"KE",
 						"CE",
 						"TE",
@@ -172,7 +172,7 @@
 				{
 					"name": "防御力",
 					"default": "2000",
-					"parameters": [
+					"values": [
 						"0",
 						"5000"
 					]
@@ -180,7 +180,7 @@
 				{
 					"name": "防御判定基準",
 					"default": "以下",
-					"parameters": [
+					"values": [
 						"以下",
 						"以上"
 					]
@@ -188,7 +188,7 @@
 				{
 					"name": "脚部タイプ",
 					"default": "中量二脚",
-					"parameters": [
+					"values": [
 						"軽量二脚",
 						"中量二脚",
 						"重量二脚",
@@ -220,7 +220,7 @@
 					{
 						"name": "スロット1比率",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -228,7 +228,7 @@
 					{
 						"name": "スロット2比率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -236,7 +236,7 @@
 					{
 						"name": "スロット3比率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -252,7 +252,7 @@
 					{
 						"name": "スロット1比率",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -260,7 +260,7 @@
 					{
 						"name": "スロット2比率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -268,7 +268,7 @@
 					{
 						"name": "スロット3比率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -276,7 +276,7 @@
 					{
 						"name": "スロット4比率",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -284,7 +284,7 @@
 					{
 						"name": "スロット5比率",
 						"default": "10",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -316,7 +316,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -332,7 +332,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -348,7 +348,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -366,7 +366,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -382,7 +382,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -398,7 +398,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -416,7 +416,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -432,7 +432,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -448,7 +448,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -489,7 +489,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -505,7 +505,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -521,7 +521,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -569,7 +569,7 @@
 					{
 						"name": "スロット1比率",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -577,7 +577,7 @@
 					{
 						"name": "スロット2比率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -585,7 +585,7 @@
 					{
 						"name": "スロット3比率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -601,7 +601,7 @@
 					{
 						"name": "スロット1比率",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -609,7 +609,7 @@
 					{
 						"name": "スロット2比率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -617,7 +617,7 @@
 					{
 						"name": "スロット3比率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -625,7 +625,7 @@
 					{
 						"name": "スロット4比率",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -633,7 +633,7 @@
 					{
 						"name": "スロット5比率",
 						"default": "10",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -649,7 +649,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -665,7 +665,7 @@
 					{
 						"name": "アクションチップ更新間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"10.0"
 						]
@@ -707,7 +707,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -715,7 +715,7 @@
 					{
 						"name": "目的距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"5",
 							"100"
 						]
@@ -723,7 +723,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -731,7 +731,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -746,7 +746,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -754,7 +754,7 @@
 					{
 						"name": "目的距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"200"
 						]
@@ -762,7 +762,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -770,7 +770,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -785,7 +785,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -793,7 +793,7 @@
 					{
 						"name": "目的距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -801,7 +801,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -809,7 +809,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -824,7 +824,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -832,7 +832,7 @@
 					{
 						"name": "目的距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -840,7 +840,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -848,7 +848,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -863,7 +863,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -871,7 +871,7 @@
 					{
 						"name": "目的距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"600"
 						]
@@ -879,7 +879,7 @@
 					{
 						"name": "不確定距離",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"60"
 						]
@@ -887,7 +887,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -902,7 +902,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -910,7 +910,7 @@
 					{
 						"name": "目的距離",
 						"default": "750",
-						"parameters": [
+						"values": [
 							"600",
 							"900"
 						]
@@ -918,7 +918,7 @@
 					{
 						"name": "不確定距離",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"120"
 						]
@@ -926,7 +926,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -941,7 +941,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -949,7 +949,7 @@
 					{
 						"name": "目的距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"5",
 							"100"
 						]
@@ -957,7 +957,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -965,7 +965,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -973,7 +973,7 @@
 					{
 						"name": "目的角度",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"60"
 						]
@@ -981,7 +981,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -996,7 +996,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1004,7 +1004,7 @@
 					{
 						"name": "目的距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"5",
 							"100"
 						]
@@ -1012,7 +1012,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1020,7 +1020,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1028,7 +1028,7 @@
 					{
 						"name": "目的角度",
 						"default": "-30",
-						"parameters": [
+						"values": [
 							"-60",
 							"0"
 						]
@@ -1036,7 +1036,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1051,7 +1051,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1059,7 +1059,7 @@
 					{
 						"name": "目的距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"5",
 							"100"
 						]
@@ -1067,7 +1067,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1075,7 +1075,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1083,7 +1083,7 @@
 					{
 						"name": "目的角度",
 						"default": "120",
-						"parameters": [
+						"values": [
 							"60",
 							"180"
 						]
@@ -1091,7 +1091,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1106,7 +1106,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1114,7 +1114,7 @@
 					{
 						"name": "目的距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"5",
 							"100"
 						]
@@ -1122,7 +1122,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1130,7 +1130,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1138,7 +1138,7 @@
 					{
 						"name": "目的角度",
 						"default": "-120",
-						"parameters": [
+						"values": [
 							"-180",
 							"-60"
 						]
@@ -1146,7 +1146,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1161,7 +1161,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1169,7 +1169,7 @@
 					{
 						"name": "目的距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"200"
 						]
@@ -1177,7 +1177,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1185,7 +1185,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1193,7 +1193,7 @@
 					{
 						"name": "目的角度",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"60"
 						]
@@ -1201,7 +1201,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1216,7 +1216,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1224,7 +1224,7 @@
 					{
 						"name": "目的距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"200"
 						]
@@ -1232,7 +1232,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1240,7 +1240,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1248,7 +1248,7 @@
 					{
 						"name": "目的角度",
 						"default": "-30",
-						"parameters": [
+						"values": [
 							"-60",
 							"0"
 						]
@@ -1256,7 +1256,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1271,7 +1271,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1279,7 +1279,7 @@
 					{
 						"name": "目的距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"200"
 						]
@@ -1287,7 +1287,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1295,7 +1295,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1303,7 +1303,7 @@
 					{
 						"name": "目的角度",
 						"default": "120",
-						"parameters": [
+						"values": [
 							"60",
 							"180"
 						]
@@ -1311,7 +1311,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1326,7 +1326,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1334,7 +1334,7 @@
 					{
 						"name": "目的距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"200"
 						]
@@ -1342,7 +1342,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1350,7 +1350,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1358,7 +1358,7 @@
 					{
 						"name": "目的角度",
 						"default": "-120",
-						"parameters": [
+						"values": [
 							"-180",
 							"-60"
 						]
@@ -1366,7 +1366,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1381,7 +1381,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1389,7 +1389,7 @@
 					{
 						"name": "目的距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -1397,7 +1397,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1405,7 +1405,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1413,7 +1413,7 @@
 					{
 						"name": "目的角度",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"60"
 						]
@@ -1421,7 +1421,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1436,7 +1436,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1444,7 +1444,7 @@
 					{
 						"name": "目的距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -1452,7 +1452,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1460,7 +1460,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1468,7 +1468,7 @@
 					{
 						"name": "目的角度",
 						"default": "-30",
-						"parameters": [
+						"values": [
 							"-60",
 							"0"
 						]
@@ -1476,7 +1476,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1491,7 +1491,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1499,7 +1499,7 @@
 					{
 						"name": "目的距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -1507,7 +1507,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1515,7 +1515,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1523,7 +1523,7 @@
 					{
 						"name": "目的角度",
 						"default": "120",
-						"parameters": [
+						"values": [
 							"60",
 							"180"
 						]
@@ -1531,7 +1531,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1546,7 +1546,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1554,7 +1554,7 @@
 					{
 						"name": "目的距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -1562,7 +1562,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1570,7 +1570,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1578,7 +1578,7 @@
 					{
 						"name": "目的角度",
 						"default": "-120",
-						"parameters": [
+						"values": [
 							"-180",
 							"-60"
 						]
@@ -1586,7 +1586,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1601,7 +1601,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1609,7 +1609,7 @@
 					{
 						"name": "目的距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -1617,7 +1617,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1625,7 +1625,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1633,7 +1633,7 @@
 					{
 						"name": "目的角度",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"60"
 						]
@@ -1641,7 +1641,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1656,7 +1656,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1664,7 +1664,7 @@
 					{
 						"name": "目的距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -1672,7 +1672,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1680,7 +1680,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1688,7 +1688,7 @@
 					{
 						"name": "目的角度",
 						"default": "-30",
-						"parameters": [
+						"values": [
 							"-60",
 							"0"
 						]
@@ -1696,7 +1696,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1711,7 +1711,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1719,7 +1719,7 @@
 					{
 						"name": "目的距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -1727,7 +1727,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1735,7 +1735,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1743,7 +1743,7 @@
 					{
 						"name": "目的角度",
 						"default": "120",
-						"parameters": [
+						"values": [
 							"60",
 							"180"
 						]
@@ -1751,7 +1751,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1766,7 +1766,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1774,7 +1774,7 @@
 					{
 						"name": "目的距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -1782,7 +1782,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1790,7 +1790,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1798,7 +1798,7 @@
 					{
 						"name": "目的角度",
 						"default": "-120",
-						"parameters": [
+						"values": [
 							"-180",
 							"-60"
 						]
@@ -1806,7 +1806,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1821,7 +1821,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1829,7 +1829,7 @@
 					{
 						"name": "目的距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -1837,7 +1837,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1845,7 +1845,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1853,7 +1853,7 @@
 					{
 						"name": "目的角度",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"90"
 						]
@@ -1861,7 +1861,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1876,7 +1876,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1884,7 +1884,7 @@
 					{
 						"name": "目的距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -1892,7 +1892,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1900,7 +1900,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1908,7 +1908,7 @@
 					{
 						"name": "目的角度",
 						"default": "-45",
-						"parameters": [
+						"values": [
 							"-90",
 							"0"
 						]
@@ -1916,7 +1916,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1931,7 +1931,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1939,7 +1939,7 @@
 					{
 						"name": "目的距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"200"
 						]
@@ -1947,7 +1947,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -1955,7 +1955,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -1963,7 +1963,7 @@
 					{
 						"name": "目的角度",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"90"
 						]
@@ -1971,7 +1971,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -1986,7 +1986,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -1994,7 +1994,7 @@
 					{
 						"name": "目的距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"200"
 						]
@@ -2002,7 +2002,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -2010,7 +2010,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -2018,7 +2018,7 @@
 					{
 						"name": "目的角度",
 						"default": "-45",
-						"parameters": [
+						"values": [
 							"-90",
 							"0"
 						]
@@ -2026,7 +2026,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -2041,7 +2041,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -2049,7 +2049,7 @@
 					{
 						"name": "目的距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -2057,7 +2057,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -2065,7 +2065,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -2073,7 +2073,7 @@
 					{
 						"name": "目的角度",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"90"
 						]
@@ -2081,7 +2081,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -2096,7 +2096,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -2104,7 +2104,7 @@
 					{
 						"name": "目的距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -2112,7 +2112,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -2120,7 +2120,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -2128,7 +2128,7 @@
 					{
 						"name": "目的角度",
 						"default": "-45",
-						"parameters": [
+						"values": [
 							"-90",
 							"0"
 						]
@@ -2136,7 +2136,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -2151,7 +2151,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -2159,7 +2159,7 @@
 					{
 						"name": "目的距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -2167,7 +2167,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -2175,7 +2175,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -2183,7 +2183,7 @@
 					{
 						"name": "目的角度",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"90"
 						]
@@ -2191,7 +2191,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -2206,7 +2206,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -2214,7 +2214,7 @@
 					{
 						"name": "目的距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -2222,7 +2222,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -2230,7 +2230,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -2238,7 +2238,7 @@
 					{
 						"name": "目的角度",
 						"default": "-45",
-						"parameters": [
+						"values": [
 							"-90",
 							"0"
 						]
@@ -2246,7 +2246,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -2261,7 +2261,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -2269,7 +2269,7 @@
 					{
 						"name": "目的距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"600"
 						]
@@ -2277,7 +2277,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -2285,7 +2285,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -2293,7 +2293,7 @@
 					{
 						"name": "目的角度",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"90"
 						]
@@ -2301,7 +2301,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -2316,7 +2316,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"30.0"
 						]
@@ -2324,7 +2324,7 @@
 					{
 						"name": "目的距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"600"
 						]
@@ -2332,7 +2332,7 @@
 					{
 						"name": "不確定距離",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -2340,7 +2340,7 @@
 					{
 						"name": "相対高度",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"-100",
 							"100"
 						]
@@ -2348,7 +2348,7 @@
 					{
 						"name": "目的角度",
 						"default": "-45",
-						"parameters": [
+						"values": [
 							"-90",
 							"0"
 						]
@@ -2356,7 +2356,7 @@
 					{
 						"name": "不確定角度",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"10"
 						]
@@ -2373,7 +2373,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -2382,7 +2382,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -2390,7 +2390,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -2398,7 +2398,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -2406,7 +2406,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"250"
 						]
@@ -2414,7 +2414,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -2422,7 +2422,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -2437,7 +2437,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -2446,7 +2446,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -2454,7 +2454,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -2462,7 +2462,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -2470,7 +2470,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -2478,7 +2478,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -2486,7 +2486,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -2501,7 +2501,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -2510,7 +2510,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -2518,7 +2518,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -2526,7 +2526,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -2534,7 +2534,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -2542,7 +2542,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -2550,7 +2550,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -2565,7 +2565,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -2574,7 +2574,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -2582,7 +2582,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -2590,7 +2590,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -2598,7 +2598,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -2606,7 +2606,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -2614,7 +2614,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -2629,7 +2629,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -2638,7 +2638,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -2646,7 +2646,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -2654,7 +2654,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -2662,7 +2662,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"250"
 						]
@@ -2670,7 +2670,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -2678,7 +2678,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -2686,7 +2686,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -2694,7 +2694,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -2709,7 +2709,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -2718,7 +2718,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -2726,7 +2726,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"400"
 						]
@@ -2734,7 +2734,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -2742,7 +2742,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"400"
 						]
@@ -2750,7 +2750,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -2758,7 +2758,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -2766,7 +2766,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -2774,7 +2774,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -2789,7 +2789,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -2798,7 +2798,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -2806,7 +2806,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -2814,7 +2814,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -2822,7 +2822,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"250"
 						]
@@ -2830,7 +2830,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -2838,7 +2838,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -2846,7 +2846,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -2861,7 +2861,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -2870,7 +2870,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -2878,7 +2878,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -2886,7 +2886,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -2894,7 +2894,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -2902,7 +2902,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -2910,7 +2910,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -2918,7 +2918,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -2933,7 +2933,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -2942,7 +2942,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -2950,7 +2950,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -2958,7 +2958,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -2966,7 +2966,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -2974,7 +2974,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -2982,7 +2982,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -2990,7 +2990,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3005,7 +3005,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -3014,7 +3014,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -3022,7 +3022,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -3030,7 +3030,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -3038,7 +3038,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -3046,7 +3046,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3054,7 +3054,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3062,7 +3062,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3077,7 +3077,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -3086,7 +3086,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -3094,7 +3094,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -3102,7 +3102,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -3110,7 +3110,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"250"
 						]
@@ -3118,7 +3118,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3126,7 +3126,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3134,7 +3134,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3142,7 +3142,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3157,7 +3157,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -3166,7 +3166,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -3174,7 +3174,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -3182,7 +3182,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -3190,7 +3190,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -3198,7 +3198,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3206,7 +3206,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3214,7 +3214,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3222,7 +3222,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3237,7 +3237,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -3246,7 +3246,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -3254,7 +3254,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -3262,7 +3262,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -3270,7 +3270,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -3278,7 +3278,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3286,7 +3286,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3294,7 +3294,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3302,7 +3302,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3317,7 +3317,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -3326,7 +3326,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -3334,7 +3334,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -3342,7 +3342,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -3350,7 +3350,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -3358,7 +3358,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3366,7 +3366,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3374,7 +3374,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3382,7 +3382,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3397,7 +3397,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -3405,7 +3405,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -3413,7 +3413,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -3421,7 +3421,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"300"
 						]
@@ -3429,7 +3429,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -3437,7 +3437,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3445,7 +3445,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3460,7 +3460,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -3468,7 +3468,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -3476,7 +3476,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -3484,7 +3484,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"400"
 						]
@@ -3492,7 +3492,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"150"
 						]
@@ -3500,7 +3500,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3508,7 +3508,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3523,7 +3523,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -3531,7 +3531,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -3539,7 +3539,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -3547,7 +3547,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"500"
 						]
@@ -3555,7 +3555,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"250"
 						]
@@ -3563,7 +3563,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3571,7 +3571,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3586,7 +3586,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -3594,7 +3594,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -3602,7 +3602,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -3610,7 +3610,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"800"
 						]
@@ -3618,7 +3618,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"0",
 							"350"
 						]
@@ -3626,7 +3626,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3634,7 +3634,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3649,7 +3649,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -3657,7 +3657,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -3665,7 +3665,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -3673,7 +3673,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"300"
 						]
@@ -3681,7 +3681,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -3689,7 +3689,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3697,7 +3697,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -3705,7 +3705,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -3713,7 +3713,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3728,7 +3728,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -3736,7 +3736,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -3744,7 +3744,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -3752,7 +3752,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"400"
 						]
@@ -3760,7 +3760,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"150"
 						]
@@ -3768,7 +3768,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3776,7 +3776,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "35",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -3784,7 +3784,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "35",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -3792,7 +3792,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3807,7 +3807,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -3815,7 +3815,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -3823,7 +3823,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -3831,7 +3831,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"500"
 						]
@@ -3839,7 +3839,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"250"
 						]
@@ -3847,7 +3847,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3855,7 +3855,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -3863,7 +3863,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -3871,7 +3871,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3886,7 +3886,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -3894,7 +3894,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -3902,7 +3902,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -3910,7 +3910,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"800"
 						]
@@ -3918,7 +3918,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"0",
 							"350"
 						]
@@ -3926,7 +3926,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -3934,7 +3934,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -3942,7 +3942,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -3950,7 +3950,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -3965,7 +3965,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -3973,7 +3973,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"300",
 							"700"
 						]
@@ -3981,7 +3981,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"800",
 							"1200"
 						]
@@ -3989,7 +3989,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"800",
 							"1400"
 						]
@@ -3997,7 +3997,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"0",
 							"700"
 						]
@@ -4005,7 +4005,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "90",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4013,7 +4013,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -4021,7 +4021,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -4029,7 +4029,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -4044,7 +4044,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -4052,7 +4052,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -4060,7 +4060,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -4068,7 +4068,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"300"
 						]
@@ -4076,7 +4076,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -4084,7 +4084,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4092,7 +4092,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4100,7 +4100,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -4115,7 +4115,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -4123,7 +4123,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -4131,7 +4131,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -4139,7 +4139,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"400"
 						]
@@ -4147,7 +4147,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"150"
 						]
@@ -4155,7 +4155,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4163,7 +4163,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4171,7 +4171,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -4186,7 +4186,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -4194,7 +4194,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -4202,7 +4202,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -4210,7 +4210,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"500"
 						]
@@ -4218,7 +4218,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"250"
 						]
@@ -4226,7 +4226,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4234,7 +4234,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4242,7 +4242,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4250,7 +4250,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -4265,7 +4265,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -4273,7 +4273,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -4281,7 +4281,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -4289,7 +4289,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"800"
 						]
@@ -4297,7 +4297,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"0",
 							"350"
 						]
@@ -4305,7 +4305,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4313,7 +4313,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4321,7 +4321,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4329,7 +4329,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -4344,7 +4344,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -4352,7 +4352,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"300",
 							"700"
 						]
@@ -4360,7 +4360,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"800",
 							"1200"
 						]
@@ -4368,7 +4368,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"800",
 							"1400"
 						]
@@ -4376,7 +4376,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"0",
 							"700"
 						]
@@ -4384,7 +4384,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "90",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4392,7 +4392,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4400,7 +4400,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4408,7 +4408,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -4423,7 +4423,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -4432,7 +4432,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -4440,7 +4440,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"10",
 							"100"
 						]
@@ -4448,7 +4448,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -4456,7 +4456,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"10",
 							"100"
 						]
@@ -4464,7 +4464,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4472,7 +4472,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "40",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4480,7 +4480,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"360"
 						]
@@ -4488,7 +4488,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"360"
 						]
@@ -4496,7 +4496,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -4511,7 +4511,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -4520,7 +4520,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -4528,7 +4528,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"10",
 							"100"
 						]
@@ -4536,7 +4536,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -4544,7 +4544,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"10",
 							"100"
 						]
@@ -4552,7 +4552,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4560,7 +4560,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"360"
 						]
@@ -4568,7 +4568,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"360"
 						]
@@ -4576,7 +4576,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -4591,7 +4591,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -4600,7 +4600,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -4608,7 +4608,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -4616,7 +4616,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -4624,7 +4624,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"250"
 						]
@@ -4632,7 +4632,7 @@
 					{
 						"name": "配置制限距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -4640,7 +4640,7 @@
 					{
 						"name": "再射出条件数",
 						"default": "3",
-						"parameters": [
+						"values": [
 							"0",
 							"4"
 						]
@@ -4655,7 +4655,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -4664,7 +4664,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -4672,7 +4672,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -4680,7 +4680,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -4688,7 +4688,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -4696,7 +4696,7 @@
 					{
 						"name": "配置制限距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -4704,7 +4704,7 @@
 					{
 						"name": "再射出条件数",
 						"default": "3",
-						"parameters": [
+						"values": [
 							"0",
 							"4"
 						]
@@ -4719,7 +4719,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -4728,7 +4728,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -4736,7 +4736,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -4744,7 +4744,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -4752,7 +4752,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -4760,7 +4760,7 @@
 					{
 						"name": "配置制限距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -4768,7 +4768,7 @@
 					{
 						"name": "再射出条件数",
 						"default": "3",
-						"parameters": [
+						"values": [
 							"0",
 							"4"
 						]
@@ -4783,7 +4783,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -4792,7 +4792,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -4800,7 +4800,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -4808,7 +4808,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -4816,7 +4816,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -4824,7 +4824,7 @@
 					{
 						"name": "配置制限距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -4832,7 +4832,7 @@
 					{
 						"name": "再射出条件数",
 						"default": "3",
-						"parameters": [
+						"values": [
 							"0",
 							"4"
 						]
@@ -4847,7 +4847,7 @@
 					{
 						"name": "搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"R HANGER UNIT",
 							"WEAPON ARMS"
@@ -4856,7 +4856,7 @@
 					{
 						"name": "強制装備残AP",
 						"default": "5000",
-						"parameters": [
+						"values": [
 							"0",
 							"50000"
 						]
@@ -4864,7 +4864,7 @@
 					{
 						"name": "装備条件 被弾量",
 						"default": "2000",
-						"parameters": [
+						"values": [
 							"0",
 							"10000"
 						]
@@ -4872,7 +4872,7 @@
 					{
 						"name": "装備条件 被弾属性",
 						"default": "ANY",
-						"parameters": [
+						"values": [
 							"ANY",
 							"KE",
 							"CE",
@@ -4882,7 +4882,7 @@
 					{
 						"name": "装備解除条件",
 						"default": "10.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"60.0"
 						]
@@ -4899,7 +4899,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -4907,7 +4907,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -4915,7 +4915,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -4923,7 +4923,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -4931,7 +4931,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"250"
 						]
@@ -4939,7 +4939,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -4947,7 +4947,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -4962,7 +4962,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -4970,7 +4970,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -4978,7 +4978,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -4986,7 +4986,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -4994,7 +4994,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -5002,7 +5002,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5010,7 +5010,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5025,7 +5025,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -5033,7 +5033,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -5041,7 +5041,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -5049,7 +5049,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -5057,7 +5057,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -5065,7 +5065,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5073,7 +5073,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5088,7 +5088,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -5096,7 +5096,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -5104,7 +5104,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -5112,7 +5112,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -5120,7 +5120,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -5128,7 +5128,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5136,7 +5136,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5151,7 +5151,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -5159,7 +5159,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -5167,7 +5167,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -5175,7 +5175,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -5183,7 +5183,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"250"
 						]
@@ -5191,7 +5191,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5199,7 +5199,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -5207,7 +5207,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -5215,7 +5215,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5230,7 +5230,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -5238,7 +5238,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -5246,7 +5246,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"400"
 						]
@@ -5254,7 +5254,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -5262,7 +5262,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"400"
 						]
@@ -5270,7 +5270,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5278,7 +5278,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -5286,7 +5286,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -5294,7 +5294,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5309,7 +5309,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -5317,7 +5317,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -5325,7 +5325,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -5333,7 +5333,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -5341,7 +5341,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"250"
 						]
@@ -5349,7 +5349,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5357,7 +5357,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5365,7 +5365,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5380,7 +5380,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -5388,7 +5388,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -5396,7 +5396,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -5404,7 +5404,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -5412,7 +5412,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -5420,7 +5420,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5428,7 +5428,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5436,7 +5436,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5451,7 +5451,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -5459,7 +5459,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -5467,7 +5467,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -5475,7 +5475,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -5483,7 +5483,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -5491,7 +5491,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5499,7 +5499,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5507,7 +5507,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5522,7 +5522,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -5530,7 +5530,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -5538,7 +5538,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -5546,7 +5546,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -5554,7 +5554,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -5562,7 +5562,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5570,7 +5570,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5578,7 +5578,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5593,7 +5593,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -5601,7 +5601,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -5609,7 +5609,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -5617,7 +5617,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -5625,7 +5625,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"250"
 						]
@@ -5633,7 +5633,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5641,7 +5641,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5649,7 +5649,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5657,7 +5657,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5672,7 +5672,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -5680,7 +5680,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -5688,7 +5688,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -5696,7 +5696,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -5704,7 +5704,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -5712,7 +5712,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5720,7 +5720,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5728,7 +5728,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5736,7 +5736,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5751,7 +5751,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -5759,7 +5759,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -5767,7 +5767,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -5775,7 +5775,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -5783,7 +5783,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -5791,7 +5791,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5799,7 +5799,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5807,7 +5807,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5815,7 +5815,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5830,7 +5830,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -5838,7 +5838,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -5846,7 +5846,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -5854,7 +5854,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -5862,7 +5862,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -5870,7 +5870,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5878,7 +5878,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5886,7 +5886,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5894,7 +5894,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5909,7 +5909,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -5917,7 +5917,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -5925,7 +5925,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -5933,7 +5933,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"300"
 						]
@@ -5941,7 +5941,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -5949,7 +5949,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -5957,7 +5957,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -5972,7 +5972,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -5980,7 +5980,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -5988,7 +5988,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -5996,7 +5996,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"400"
 						]
@@ -6004,7 +6004,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"150"
 						]
@@ -6012,7 +6012,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6020,7 +6020,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6035,7 +6035,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -6043,7 +6043,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -6051,7 +6051,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -6059,7 +6059,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"500"
 						]
@@ -6067,7 +6067,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"250"
 						]
@@ -6075,7 +6075,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6083,7 +6083,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6098,7 +6098,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -6106,7 +6106,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -6114,7 +6114,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -6122,7 +6122,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"800"
 						]
@@ -6130,7 +6130,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"0",
 							"350"
 						]
@@ -6138,7 +6138,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6146,7 +6146,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6161,7 +6161,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -6169,7 +6169,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -6177,7 +6177,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -6185,7 +6185,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"300"
 						]
@@ -6193,7 +6193,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -6201,7 +6201,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6209,7 +6209,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -6217,7 +6217,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -6225,7 +6225,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6240,7 +6240,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -6248,7 +6248,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -6256,7 +6256,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -6264,7 +6264,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"400"
 						]
@@ -6272,7 +6272,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"150"
 						]
@@ -6280,7 +6280,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6288,7 +6288,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "35",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -6296,7 +6296,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "35",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -6304,7 +6304,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6319,7 +6319,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -6327,7 +6327,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -6335,7 +6335,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -6343,7 +6343,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"500"
 						]
@@ -6351,7 +6351,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"250"
 						]
@@ -6359,7 +6359,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6367,7 +6367,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -6375,7 +6375,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -6383,7 +6383,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6398,7 +6398,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -6406,7 +6406,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -6414,7 +6414,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -6422,7 +6422,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"800"
 						]
@@ -6430,7 +6430,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"0",
 							"350"
 						]
@@ -6438,7 +6438,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6446,7 +6446,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -6454,7 +6454,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -6462,7 +6462,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6477,7 +6477,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -6485,7 +6485,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"300",
 							"700"
 						]
@@ -6493,7 +6493,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"800",
 							"1200"
 						]
@@ -6501,7 +6501,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"800",
 							"1400"
 						]
@@ -6509,7 +6509,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"0",
 							"700"
 						]
@@ -6517,7 +6517,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "90",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6525,7 +6525,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -6533,7 +6533,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "15",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -6541,7 +6541,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6556,7 +6556,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -6564,7 +6564,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -6572,7 +6572,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -6580,7 +6580,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"300"
 						]
@@ -6588,7 +6588,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -6596,7 +6596,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6604,7 +6604,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6612,7 +6612,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6627,7 +6627,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -6635,7 +6635,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -6643,7 +6643,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -6651,7 +6651,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"400"
 						]
@@ -6659,7 +6659,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"150"
 						]
@@ -6667,7 +6667,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6675,7 +6675,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6683,7 +6683,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6698,7 +6698,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -6706,7 +6706,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -6714,7 +6714,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -6722,7 +6722,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"500"
 						]
@@ -6730,7 +6730,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"250"
 						]
@@ -6738,7 +6738,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6746,7 +6746,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6754,7 +6754,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6762,7 +6762,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6777,7 +6777,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -6785,7 +6785,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -6793,7 +6793,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -6801,7 +6801,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"800"
 						]
@@ -6809,7 +6809,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"0",
 							"350"
 						]
@@ -6817,7 +6817,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6825,7 +6825,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6833,7 +6833,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6841,7 +6841,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6856,7 +6856,7 @@
 					{
 						"name": "構え判定",
 						"default": "判定なし",
-						"parameters": [
+						"values": [
 							"判定なし",
 							"射線"
 						]
@@ -6864,7 +6864,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"300",
 							"700"
 						]
@@ -6872,7 +6872,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"800",
 							"1200"
 						]
@@ -6880,7 +6880,7 @@
 					{
 						"name": "構え開始距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"800",
 							"1400"
 						]
@@ -6888,7 +6888,7 @@
 					{
 						"name": "構え解除距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"0",
 							"700"
 						]
@@ -6896,7 +6896,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "90",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6904,7 +6904,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6912,7 +6912,7 @@
 					{
 						"name": "攻撃時チャージ率",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6920,7 +6920,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -6935,7 +6935,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -6943,7 +6943,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -6951,7 +6951,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"10",
 							"100"
 						]
@@ -6959,7 +6959,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -6967,7 +6967,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"10",
 							"100"
 						]
@@ -6975,7 +6975,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6983,7 +6983,7 @@
 					{
 						"name": "攻撃限界EN率",
 						"default": "40",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -6991,7 +6991,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"360"
 						]
@@ -6999,7 +6999,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"360"
 						]
@@ -7007,7 +7007,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -7022,7 +7022,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -7030,7 +7030,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -7038,7 +7038,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"10",
 							"100"
 						]
@@ -7046,7 +7046,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -7054,7 +7054,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"10",
 							"100"
 						]
@@ -7062,7 +7062,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7070,7 +7070,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"360"
 						]
@@ -7078,7 +7078,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"360"
 						]
@@ -7086,7 +7086,7 @@
 					{
 						"name": "FCS異常時反応",
 						"default": "OFF",
-						"parameters": [
+						"values": [
 							"ON",
 							"OFF"
 						]
@@ -7101,7 +7101,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -7109,7 +7109,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -7117,7 +7117,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -7125,7 +7125,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -7133,7 +7133,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"100",
 							"250"
 						]
@@ -7141,7 +7141,7 @@
 					{
 						"name": "配置制限距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -7149,7 +7149,7 @@
 					{
 						"name": "再射出条件数",
 						"default": "3",
-						"parameters": [
+						"values": [
 							"0",
 							"4"
 						]
@@ -7164,7 +7164,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -7172,7 +7172,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -7180,7 +7180,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -7188,7 +7188,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -7196,7 +7196,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -7204,7 +7204,7 @@
 					{
 						"name": "配置制限距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -7212,7 +7212,7 @@
 					{
 						"name": "再射出条件数",
 						"default": "3",
-						"parameters": [
+						"values": [
 							"0",
 							"4"
 						]
@@ -7227,7 +7227,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -7235,7 +7235,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -7243,7 +7243,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -7251,7 +7251,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -7259,7 +7259,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -7267,7 +7267,7 @@
 					{
 						"name": "配置制限距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -7275,7 +7275,7 @@
 					{
 						"name": "再射出条件数",
 						"default": "3",
-						"parameters": [
+						"values": [
 							"0",
 							"4"
 						]
@@ -7290,7 +7290,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -7298,7 +7298,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -7306,7 +7306,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -7314,7 +7314,7 @@
 					{
 						"name": "最短装備距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -7322,7 +7322,7 @@
 					{
 						"name": "最長装備距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -7330,7 +7330,7 @@
 					{
 						"name": "配置制限距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -7338,7 +7338,7 @@
 					{
 						"name": "再射出条件数",
 						"default": "3",
-						"parameters": [
+						"values": [
 							"0",
 							"4"
 						]
@@ -7353,7 +7353,7 @@
 					{
 						"name": "搭載位置",
 						"default": "L ARM UNIT",
-						"parameters": [
+						"values": [
 							"L ARM UNIT",
 							"L HANGER UNIT"
 						]
@@ -7361,7 +7361,7 @@
 					{
 						"name": "強制装備残AP",
 						"default": "5000",
-						"parameters": [
+						"values": [
 							"0",
 							"50000"
 						]
@@ -7369,7 +7369,7 @@
 					{
 						"name": "装備条件 被弾量",
 						"default": "2000",
-						"parameters": [
+						"values": [
 							"0",
 							"10000"
 						]
@@ -7377,7 +7377,7 @@
 					{
 						"name": "装備条件 被弾属性",
 						"default": "ANY",
-						"parameters": [
+						"values": [
 							"ANY",
 							"KE",
 							"CE",
@@ -7387,7 +7387,7 @@
 					{
 						"name": "装備解除条件",
 						"default": "10.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"60.0"
 						]
@@ -7404,7 +7404,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -7412,7 +7412,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -7420,7 +7420,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7435,7 +7435,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -7443,7 +7443,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -7451,7 +7451,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7466,7 +7466,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -7474,7 +7474,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -7482,7 +7482,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7497,7 +7497,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -7505,7 +7505,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -7513,7 +7513,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7528,7 +7528,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -7536,7 +7536,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -7544,7 +7544,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7552,7 +7552,7 @@
 					{
 						"name": "指定発射数",
 						"default": "6",
-						"parameters": [
+						"values": [
 							"1",
 							"6"
 						]
@@ -7567,7 +7567,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -7575,7 +7575,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -7583,7 +7583,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7591,7 +7591,7 @@
 					{
 						"name": "指定発射数",
 						"default": "6",
-						"parameters": [
+						"values": [
 							"1",
 							"6"
 						]
@@ -7606,7 +7606,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -7614,7 +7614,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -7622,7 +7622,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7630,7 +7630,7 @@
 					{
 						"name": "指定発射数",
 						"default": "6",
-						"parameters": [
+						"values": [
 							"1",
 							"6"
 						]
@@ -7645,7 +7645,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -7653,7 +7653,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -7661,7 +7661,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7669,7 +7669,7 @@
 					{
 						"name": "指定発射数",
 						"default": "6",
-						"parameters": [
+						"values": [
 							"1",
 							"6"
 						]
@@ -7684,7 +7684,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"50"
 						]
@@ -7692,7 +7692,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"50",
 							"200"
 						]
@@ -7700,7 +7700,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7708,7 +7708,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -7716,7 +7716,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -7731,7 +7731,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"50",
 							"150"
 						]
@@ -7739,7 +7739,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "250",
-						"parameters": [
+						"values": [
 							"200",
 							"300"
 						]
@@ -7747,7 +7747,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7755,7 +7755,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -7763,7 +7763,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -7778,7 +7778,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"150",
 							"250"
 						]
@@ -7786,7 +7786,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"400"
 						]
@@ -7794,7 +7794,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7802,7 +7802,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -7810,7 +7810,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -7825,7 +7825,7 @@
 					{
 						"name": "最短攻撃距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"250",
 							"350"
 						]
@@ -7833,7 +7833,7 @@
 					{
 						"name": "最長攻撃距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"400",
 							"650"
 						]
@@ -7841,7 +7841,7 @@
 					{
 						"name": "攻撃演算性能",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7849,7 +7849,7 @@
 					{
 						"name": "攻撃左右範囲",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -7857,7 +7857,7 @@
 					{
 						"name": "攻撃上下範囲",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -7872,7 +7872,7 @@
 					{
 						"name": "射出条件 距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"0",
 							"300"
 						]
@@ -7880,7 +7880,7 @@
 					{
 						"name": "射出条件 時間",
 						"default": "2.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"10.0"
 						]
@@ -7895,7 +7895,7 @@
 					{
 						"name": "射出条件 距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"300",
 							"500"
 						]
@@ -7903,7 +7903,7 @@
 					{
 						"name": "射出条件 時間",
 						"default": "3.5",
-						"parameters": [
+						"values": [
 							"0.0",
 							"10.0"
 						]
@@ -7918,7 +7918,7 @@
 					{
 						"name": "射出条件 距離",
 						"default": "600",
-						"parameters": [
+						"values": [
 							"500",
 							"900"
 						]
@@ -7926,7 +7926,7 @@
 					{
 						"name": "射出条件 時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"10.0"
 						]
@@ -7941,7 +7941,7 @@
 					{
 						"name": "使用距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"0",
 							"300"
 						]
@@ -7956,7 +7956,7 @@
 					{
 						"name": "使用距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"0",
 							"600"
 						]
@@ -7971,7 +7971,7 @@
 					{
 						"name": "使用距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"0",
 							"300"
 						]
@@ -7979,7 +7979,7 @@
 					{
 						"name": "使用限界EN率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -7994,7 +7994,7 @@
 					{
 						"name": "使用距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"0",
 							"600"
 						]
@@ -8002,7 +8002,7 @@
 					{
 						"name": "使用限界EN率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8017,7 +8017,7 @@
 					{
 						"name": "使用距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"300"
 						]
@@ -8025,7 +8025,7 @@
 					{
 						"name": "停止距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"200"
 						]
@@ -8033,7 +8033,7 @@
 					{
 						"name": "強制有効EN率",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8048,7 +8048,7 @@
 					{
 						"name": "使用距離",
 						"default": "400",
-						"parameters": [
+						"values": [
 							"300",
 							"500"
 						]
@@ -8056,7 +8056,7 @@
 					{
 						"name": "停止距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"200"
 						]
@@ -8064,7 +8064,7 @@
 					{
 						"name": "強制有効EN率",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8081,7 +8081,7 @@
 					{
 						"name": "認識距離",
 						"default": "280",
-						"parameters": [
+						"values": [
 							"280",
 							"450"
 						]
@@ -8089,7 +8089,7 @@
 					{
 						"name": "認識角度",
 						"default": "90",
-						"parameters": [
+						"values": [
 							"90",
 							"160"
 						]
@@ -8104,7 +8104,7 @@
 					{
 						"name": "認識距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"500",
 							"900"
 						]
@@ -8112,7 +8112,7 @@
 					{
 						"name": "認識角度",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"20",
 							"40"
 						]
@@ -8127,7 +8127,7 @@
 					{
 						"name": "認識距離",
 						"default": "400",
-						"parameters": [
+						"values": [
 							"400",
 							"600"
 						]
@@ -8135,7 +8135,7 @@
 					{
 						"name": "認識角度",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"50",
 							"100"
 						]
@@ -8150,7 +8150,7 @@
 					{
 						"name": "認識距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"200",
 							"350"
 						]
@@ -8158,7 +8158,7 @@
 					{
 						"name": "認識角度",
 						"default": "140",
-						"parameters": [
+						"values": [
 							"140",
 							"200"
 						]
@@ -8173,7 +8173,7 @@
 					{
 						"name": "認識距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"1000",
 							"1500"
 						]
@@ -8181,7 +8181,7 @@
 					{
 						"name": "認識角度",
 						"default": "8",
-						"parameters": [
+						"values": [
 							"8",
 							"16"
 						]
@@ -8196,7 +8196,7 @@
 					{
 						"name": "認識距離",
 						"default": "90",
-						"parameters": [
+						"values": [
 							"90",
 							"150"
 						]
@@ -8204,7 +8204,7 @@
 					{
 						"name": "認識角度",
 						"default": "170",
-						"parameters": [
+						"values": [
 							"170",
 							"200"
 						]
@@ -8219,7 +8219,7 @@
 					{
 						"name": "認識距離",
 						"default": "140",
-						"parameters": [
+						"values": [
 							"140",
 							"200"
 						]
@@ -8227,7 +8227,7 @@
 					{
 						"name": "認識角度",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"60",
 							"90"
 						]
@@ -8242,7 +8242,7 @@
 					{
 						"name": "認識距離",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"70",
 							"120"
 						]
@@ -8250,7 +8250,7 @@
 					{
 						"name": "認識角度",
 						"default": "210",
-						"parameters": [
+						"values": [
 							"210",
 							"240"
 						]
@@ -8265,7 +8265,7 @@
 					{
 						"name": "認識距離",
 						"default": "40",
-						"parameters": [
+						"values": [
 							"40",
 							"80"
 						]
@@ -8273,7 +8273,7 @@
 					{
 						"name": "認識角度",
 						"default": "240",
-						"parameters": [
+						"values": [
 							"240",
 							"320"
 						]
@@ -8288,7 +8288,7 @@
 					{
 						"name": "認識距離",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"30",
 							"50"
 						]
@@ -8296,7 +8296,7 @@
 					{
 						"name": "認識角度",
 						"default": "360",
-						"parameters": [
+						"values": [
 							"360",
 							"360"
 						]
@@ -8313,7 +8313,7 @@
 					{
 						"name": "評価距離",
 						"default": "0",
-						"parameters": [
+						"values": [
 							"0",
 							"1000"
 						]
@@ -8321,7 +8321,7 @@
 					{
 						"name": "距離判定許容量",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -8336,7 +8336,7 @@
 					{
 						"name": "評価AP",
 						"default": "低い",
-						"parameters": [
+						"values": [
 							"低い",
 							"高い"
 						]
@@ -8344,7 +8344,7 @@
 					{
 						"name": "AP判定許容量",
 						"default": "5000",
-						"parameters": [
+						"values": [
 							"0",
 							"20000"
 						]
@@ -8359,7 +8359,7 @@
 					{
 						"name": "防御属性",
 						"default": "KE",
-						"parameters": [
+						"values": [
 							"KE",
 							"CE",
 							"TE"
@@ -8368,7 +8368,7 @@
 					{
 						"name": "防御力判定許容量",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -8383,7 +8383,7 @@
 					{
 						"name": "被弾量",
 						"default": "多い",
-						"parameters": [
+						"values": [
 							"多い",
 							"少ない"
 						]
@@ -8391,7 +8391,7 @@
 					{
 						"name": "被弾量判定許容量",
 						"default": "2000",
-						"parameters": [
+						"values": [
 							"0",
 							"10000"
 						]
@@ -8406,7 +8406,7 @@
 					{
 						"name": "脚部タイプ",
 						"default": "中量二脚",
-						"parameters": [
+						"values": [
 							"軽量二脚",
 							"中量二脚",
 							"重量二脚",
@@ -8426,7 +8426,7 @@
 					{
 						"name": "共闘評価",
 						"default": "集中",
-						"parameters": [
+						"values": [
 							"集中",
 							"個別"
 						]
@@ -8441,7 +8441,7 @@
 					{
 						"name": "敵種別",
 						"default": "AC",
-						"parameters": [
+						"values": [
 							"AC",
 							"砲台",
 							"サブターゲット",
@@ -8460,7 +8460,7 @@
 					{
 						"name": "被弾量",
 						"default": "2000",
-						"parameters": [
+						"values": [
 							"1",
 							"10000"
 						]
@@ -8468,7 +8468,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8476,7 +8476,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8484,7 +8484,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"10.0"
 						]
@@ -8499,7 +8499,7 @@
 					{
 						"name": "被弾量",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"1",
 							"10000"
 						]
@@ -8507,7 +8507,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8515,7 +8515,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8523,7 +8523,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "2.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"10.0"
 						]
@@ -8538,7 +8538,7 @@
 					{
 						"name": "被ロック時間",
 						"default": "2.0",
-						"parameters": [
+						"values": [
 							"0.1",
 							"10.0"
 						]
@@ -8546,7 +8546,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8554,7 +8554,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8562,7 +8562,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"10.0"
 						]
@@ -8577,7 +8577,7 @@
 					{
 						"name": "被ロック時間",
 						"default": "2.0",
-						"parameters": [
+						"values": [
 							"0.1",
 							"10.0"
 						]
@@ -8585,7 +8585,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8593,7 +8593,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8601,7 +8601,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "2.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"10.0"
 						]
@@ -8616,7 +8616,7 @@
 					{
 						"name": "被ジャマー時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"0.1",
 							"10.0"
 						]
@@ -8624,7 +8624,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8632,7 +8632,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8640,7 +8640,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"10.0"
 						]
@@ -8655,7 +8655,7 @@
 					{
 						"name": "被ジャマー時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"0.1",
 							"10.0"
 						]
@@ -8663,7 +8663,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8671,7 +8671,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8679,7 +8679,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "2.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"10.0"
 						]
@@ -8694,7 +8694,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8702,7 +8702,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8710,7 +8710,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"10.0"
 						]
@@ -8725,7 +8725,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8733,7 +8733,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8741,7 +8741,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "2.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"10.0"
 						]
@@ -8756,7 +8756,7 @@
 					{
 						"name": "被弾量",
 						"default": "2000",
-						"parameters": [
+						"values": [
 							"1",
 							"10000"
 						]
@@ -8764,7 +8764,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8779,7 +8779,7 @@
 					{
 						"name": "被弾量",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"1",
 							"10000"
 						]
@@ -8787,7 +8787,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8802,7 +8802,7 @@
 					{
 						"name": "被ロック時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"0.1",
 							"10.0"
 						]
@@ -8810,7 +8810,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8825,7 +8825,7 @@
 					{
 						"name": "被ロック時間",
 						"default": "1.0",
-						"parameters": [
+						"values": [
 							"0.1",
 							"10.0"
 						]
@@ -8833,7 +8833,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8848,7 +8848,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "65",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8856,7 +8856,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "10.0",
-						"parameters": [
+						"values": [
 							"1.5",
 							"20.0"
 						]
@@ -8871,7 +8871,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "45",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8879,7 +8879,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.5",
 							"20.0"
 						]
@@ -8894,7 +8894,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8902,7 +8902,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "3.0",
-						"parameters": [
+						"values": [
 							"1.5",
 							"20.0"
 						]
@@ -8917,7 +8917,7 @@
 					{
 						"name": "回避実行距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"1000"
 						]
@@ -8925,7 +8925,7 @@
 					{
 						"name": "回避実行角度",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -8933,7 +8933,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8948,7 +8948,7 @@
 					{
 						"name": "回避実行距離",
 						"default": "300",
-						"parameters": [
+						"values": [
 							"0",
 							"1000"
 						]
@@ -8956,7 +8956,7 @@
 					{
 						"name": "回避実行角度",
 						"default": "90",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -8964,7 +8964,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "40",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -8979,7 +8979,7 @@
 					{
 						"name": "回避実行距離",
 						"default": "400",
-						"parameters": [
+						"values": [
 							"0",
 							"1000"
 						]
@@ -8987,7 +8987,7 @@
 					{
 						"name": "回避実行角度",
 						"default": "120",
-						"parameters": [
+						"values": [
 							"0",
 							"180"
 						]
@@ -8995,7 +8995,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9010,7 +9010,7 @@
 					{
 						"name": "ミサイル反射性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9018,7 +9018,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9026,7 +9026,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9034,7 +9034,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "3.0",
-						"parameters": [
+						"values": [
 							"0.1",
 							"10.0"
 						]
@@ -9042,7 +9042,7 @@
 					{
 						"name": "ミサイル反応範囲",
 						"default": "80",
-						"parameters": [
+						"values": [
 							"0",
 							"160"
 						]
@@ -9050,7 +9050,7 @@
 					{
 						"name": "ミサイル回避方向",
 						"default": "右",
-						"parameters": [
+						"values": [
 							"右",
 							"左",
 							"前",
@@ -9067,7 +9067,7 @@
 					{
 						"name": "ミサイル反射性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9075,7 +9075,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "40",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9083,7 +9083,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9091,7 +9091,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "2.0",
-						"parameters": [
+						"values": [
 							"0.1",
 							"10.0"
 						]
@@ -9099,7 +9099,7 @@
 					{
 						"name": "ミサイル反応範囲",
 						"default": "120",
-						"parameters": [
+						"values": [
 							"40",
 							"200"
 						]
@@ -9107,7 +9107,7 @@
 					{
 						"name": "ミサイル回避方向",
 						"default": "右",
-						"parameters": [
+						"values": [
 							"右",
 							"左",
 							"前",
@@ -9124,7 +9124,7 @@
 					{
 						"name": "ミサイル反射性能",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9132,7 +9132,7 @@
 					{
 						"name": "回避限界EN率",
 						"default": "20",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9140,7 +9140,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9148,7 +9148,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "1.0",
-						"parameters": [
+						"values": [
 							"0.1",
 							"10.0"
 						]
@@ -9156,7 +9156,7 @@
 					{
 						"name": "ミサイル反応範囲",
 						"default": "180",
-						"parameters": [
+						"values": [
 							"120",
 							"240"
 						]
@@ -9164,7 +9164,7 @@
 					{
 						"name": "ミサイル回避方向",
 						"default": "右",
-						"parameters": [
+						"values": [
 							"右",
 							"左",
 							"前",
@@ -9183,7 +9183,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"20.0"
 						]
@@ -9191,7 +9191,7 @@
 					{
 						"name": "目的地距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -9199,7 +9199,7 @@
 					{
 						"name": "特殊移動限界EN率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9207,7 +9207,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "3.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"30.0"
 						]
@@ -9222,7 +9222,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"20.0"
 						]
@@ -9230,7 +9230,7 @@
 					{
 						"name": "目的地距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -9238,7 +9238,7 @@
 					{
 						"name": "特殊移動限界EN率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9246,7 +9246,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "3.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"30.0"
 						]
@@ -9261,7 +9261,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"20.0"
 						]
@@ -9269,7 +9269,7 @@
 					{
 						"name": "目的地距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -9277,7 +9277,7 @@
 					{
 						"name": "特殊移動限界EN率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9285,7 +9285,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "3.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"30.0"
 						]
@@ -9300,7 +9300,7 @@
 					{
 						"name": "継続時間",
 						"default": "8.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"20.0"
 						]
@@ -9308,7 +9308,7 @@
 					{
 						"name": "目的地距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -9316,7 +9316,7 @@
 					{
 						"name": "特殊移動限界EN率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9324,7 +9324,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"30.0"
 						]
@@ -9339,7 +9339,7 @@
 					{
 						"name": "継続時間",
 						"default": "8.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"20.0"
 						]
@@ -9347,7 +9347,7 @@
 					{
 						"name": "目的地距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -9355,7 +9355,7 @@
 					{
 						"name": "特殊移動限界EN率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9363,7 +9363,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"30.0"
 						]
@@ -9378,7 +9378,7 @@
 					{
 						"name": "継続時間",
 						"default": "8.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"20.0"
 						]
@@ -9386,7 +9386,7 @@
 					{
 						"name": "目的地距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -9394,7 +9394,7 @@
 					{
 						"name": "特殊移動限界EN率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9402,7 +9402,7 @@
 					{
 						"name": "アクション間隔",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"0.0",
 							"30.0"
 						]
@@ -9417,7 +9417,7 @@
 					{
 						"name": "継続時間",
 						"default": "8.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"20.0"
 						]
@@ -9425,7 +9425,7 @@
 					{
 						"name": "目的地距離",
 						"default": "350",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -9433,7 +9433,7 @@
 					{
 						"name": "特殊移動限界EN率",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9448,7 +9448,7 @@
 					{
 						"name": "継続時間",
 						"default": "8.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"20.0"
 						]
@@ -9456,7 +9456,7 @@
 					{
 						"name": "目的地距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -9464,7 +9464,7 @@
 					{
 						"name": "特殊移動限界EN率",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9479,7 +9479,7 @@
 					{
 						"name": "継続時間",
 						"default": "8.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"20.0"
 						]
@@ -9487,7 +9487,7 @@
 					{
 						"name": "目的地距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"500"
 						]
@@ -9495,7 +9495,7 @@
 					{
 						"name": "特殊移動限界EN率",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9510,7 +9510,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"20.0"
 						]
@@ -9518,7 +9518,7 @@
 					{
 						"name": "捕捉行動実行距離",
 						"default": "40",
-						"parameters": [
+						"values": [
 							"10",
 							"200"
 						]
@@ -9526,7 +9526,7 @@
 					{
 						"name": "捕捉行動実行角度",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"10",
 							"180"
 						]
@@ -9541,7 +9541,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"20.0"
 						]
@@ -9549,7 +9549,7 @@
 					{
 						"name": "捕捉行動実行距離",
 						"default": "70",
-						"parameters": [
+						"values": [
 							"10",
 							"200"
 						]
@@ -9557,7 +9557,7 @@
 					{
 						"name": "捕捉行動実行角度",
 						"default": "90",
-						"parameters": [
+						"values": [
 							"10",
 							"180"
 						]
@@ -9572,7 +9572,7 @@
 					{
 						"name": "継続時間",
 						"default": "5.0",
-						"parameters": [
+						"values": [
 							"1.0",
 							"20.0"
 						]
@@ -9580,7 +9580,7 @@
 					{
 						"name": "捕捉行動実行距離",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"10",
 							"200"
 						]
@@ -9588,7 +9588,7 @@
 					{
 						"name": "捕捉行動実行角度",
 						"default": "120",
-						"parameters": [
+						"values": [
 							"10",
 							"180"
 						]
@@ -9605,7 +9605,7 @@
 					{
 						"name": "実行距離",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9613,7 +9613,7 @@
 					{
 						"name": "実行範囲",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"170"
 						]
@@ -9621,7 +9621,7 @@
 					{
 						"name": "実行限界EN率",
 						"default": "40",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9629,7 +9629,7 @@
 					{
 						"name": "実行間隔",
 						"default": "5",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -9637,7 +9637,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9652,7 +9652,7 @@
 					{
 						"name": "実行距離",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9660,7 +9660,7 @@
 					{
 						"name": "実行範囲",
 						"default": "100",
-						"parameters": [
+						"values": [
 							"0",
 							"170"
 						]
@@ -9668,7 +9668,7 @@
 					{
 						"name": "実行限界EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9676,7 +9676,7 @@
 					{
 						"name": "実行間隔",
 						"default": "3",
-						"parameters": [
+						"values": [
 							"0",
 							"30"
 						]
@@ -9684,7 +9684,7 @@
 					{
 						"name": "反応性能",
 						"default": "25",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9699,7 +9699,7 @@
 					{
 						"name": "強制スキャンモード距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"0",
 							"2000"
 						]
@@ -9707,7 +9707,7 @@
 					{
 						"name": "スキャンモード起動EN率",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9715,7 +9715,7 @@
 					{
 						"name": "スキャンモード解除EN率",
 						"default": "90",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9730,7 +9730,7 @@
 					{
 						"name": "強制スキャンモード距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"0",
 							"2000"
 						]
@@ -9738,7 +9738,7 @@
 					{
 						"name": "スキャンモード起動EN率",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9746,7 +9746,7 @@
 					{
 						"name": "スキャンモード解除EN率",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9761,7 +9761,7 @@
 					{
 						"name": "強制スキャンモード距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"0",
 							"2000"
 						]
@@ -9769,7 +9769,7 @@
 					{
 						"name": "スキャンモード起動EN率",
 						"default": "10",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9777,7 +9777,7 @@
 					{
 						"name": "スキャンモード解除EN率",
 						"default": "40",
-						"parameters": [
+						"values": [
 							"0",
 							"100"
 						]
@@ -9792,7 +9792,7 @@
 					{
 						"name": "リコン使用間隔",
 						"default": "30",
-						"parameters": [
+						"values": [
 							"1",
 							"60"
 						]
@@ -9807,7 +9807,7 @@
 					{
 						"name": "リコン使用間隔",
 						"default": "10",
-						"parameters": [
+						"values": [
 							"1",
 							"60"
 						]
@@ -9822,7 +9822,7 @@
 					{
 						"name": "リコン使用間隔",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"1",
 							"60"
 						]
@@ -9837,7 +9837,7 @@
 					{
 						"name": "パージ搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"L ARM UNIT",
 							"R HANGER UNIT",
@@ -9847,7 +9847,7 @@
 					{
 						"name": "パージ距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"0",
 							"1000"
 						]
@@ -9862,7 +9862,7 @@
 					{
 						"name": "パージ搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"L ARM UNIT",
 							"R HANGER UNIT",
@@ -9872,7 +9872,7 @@
 					{
 						"name": "パージ距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"0",
 							"1000"
 						]
@@ -9880,7 +9880,7 @@
 					{
 						"name": "防御属性",
 						"default": "KE",
-						"parameters": [
+						"values": [
 							"KE",
 							"CE",
 							"TE"
@@ -9889,7 +9889,7 @@
 					{
 						"name": "防御力",
 						"default": "2000",
-						"parameters": [
+						"values": [
 							"100",
 							"5000"
 						]
@@ -9904,7 +9904,7 @@
 					{
 						"name": "パージ搭載位置",
 						"default": "R ARM UNIT",
-						"parameters": [
+						"values": [
 							"R ARM UNIT",
 							"L ARM UNIT",
 							"R HANGER UNIT",
@@ -9914,7 +9914,7 @@
 					{
 						"name": "パージ距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"0",
 							"1000"
 						]
@@ -9922,7 +9922,7 @@
 					{
 						"name": "脚部タイプ",
 						"default": "中量二脚",
-						"parameters": [
+						"values": [
 							"軽量二脚",
 							"中量二脚",
 							"重量二脚",
@@ -9942,7 +9942,7 @@
 					{
 						"name": "OW 装備距離",
 						"default": "700",
-						"parameters": [
+						"values": [
 							"0",
 							"1500"
 						]
@@ -9950,7 +9950,7 @@
 					{
 						"name": "OW 発動距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"1500"
 						]
@@ -9958,7 +9958,7 @@
 					{
 						"name": "OW 左右角度",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"1",
 							"360"
 						]
@@ -9966,7 +9966,7 @@
 					{
 						"name": "OW 上下角度",
 						"default": "60",
-						"parameters": [
+						"values": [
 							"1",
 							"360"
 						]
@@ -9981,7 +9981,7 @@
 					{
 						"name": "OW 装備距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"0",
 							"1500"
 						]
@@ -9989,7 +9989,7 @@
 					{
 						"name": "OW 発動距離",
 						"default": "150",
-						"parameters": [
+						"values": [
 							"0",
 							"1500"
 						]
@@ -9997,7 +9997,7 @@
 					{
 						"name": "OW 左右角度",
 						"default": "120",
-						"parameters": [
+						"values": [
 							"1",
 							"360"
 						]
@@ -10005,7 +10005,7 @@
 					{
 						"name": "OW 上下角度",
 						"default": "90",
-						"parameters": [
+						"values": [
 							"1",
 							"360"
 						]
@@ -10020,7 +10020,7 @@
 					{
 						"name": "OW 装備距離",
 						"default": "1500",
-						"parameters": [
+						"values": [
 							"0",
 							"1500"
 						]
@@ -10028,7 +10028,7 @@
 					{
 						"name": "OW 発動距離",
 						"default": "1000",
-						"parameters": [
+						"values": [
 							"0",
 							"1500"
 						]
@@ -10036,7 +10036,7 @@
 					{
 						"name": "OW 左右角度",
 						"default": "40",
-						"parameters": [
+						"values": [
 							"1",
 							"360"
 						]
@@ -10044,7 +10044,7 @@
 					{
 						"name": "OW 上下角度",
 						"default": "40",
-						"parameters": [
+						"values": [
 							"1",
 							"360"
 						]
@@ -10059,7 +10059,7 @@
 					{
 						"name": "OW 装備距離",
 						"default": "500",
-						"parameters": [
+						"values": [
 							"0",
 							"1500"
 						]
@@ -10067,7 +10067,7 @@
 					{
 						"name": "OW 発動距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"1500"
 						]
@@ -10075,7 +10075,7 @@
 					{
 						"name": "OW 左右角度",
 						"default": "240",
-						"parameters": [
+						"values": [
 							"1",
 							"360"
 						]
@@ -10083,7 +10083,7 @@
 					{
 						"name": "OW 上下角度",
 						"default": "240",
-						"parameters": [
+						"values": [
 							"1",
 							"360"
 						]
@@ -10098,7 +10098,7 @@
 					{
 						"name": "OW 装備距離",
 						"default": "1200",
-						"parameters": [
+						"values": [
 							"0",
 							"1500"
 						]
@@ -10106,7 +10106,7 @@
 					{
 						"name": "OW 発動距離",
 						"default": "800",
-						"parameters": [
+						"values": [
 							"0",
 							"1500"
 						]
@@ -10114,7 +10114,7 @@
 					{
 						"name": "OW 左右角度",
 						"default": "120",
-						"parameters": [
+						"values": [
 							"1",
 							"360"
 						]
@@ -10122,7 +10122,7 @@
 					{
 						"name": "OW 上下角度",
 						"default": "90",
-						"parameters": [
+						"values": [
 							"1",
 							"360"
 						]
@@ -10137,7 +10137,7 @@
 					{
 						"name": "OW 装備距離",
 						"default": "700",
-						"parameters": [
+						"values": [
 							"0",
 							"1500"
 						]
@@ -10145,7 +10145,7 @@
 					{
 						"name": "OW 発動距離",
 						"default": "200",
-						"parameters": [
+						"values": [
 							"0",
 							"1500"
 						]
@@ -10153,7 +10153,7 @@
 					{
 						"name": "OW 左右角度",
 						"default": "120",
-						"parameters": [
+						"values": [
 							"1",
 							"360"
 						]
@@ -10161,7 +10161,7 @@
 					{
 						"name": "OW 上下角度",
 						"default": "50",
-						"parameters": [
+						"values": [
 							"1",
 							"360"
 						]
