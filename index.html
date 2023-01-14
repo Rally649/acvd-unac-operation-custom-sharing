@@ -6,33 +6,33 @@
 	<script src="index.js"></script>
 </head>
 <body>
-	<ul>
-		<li>
-			<div class="box">
-				<label for="unac-comment">UNAC COMMENT</label>
+	<div class="space-between">
+		<ul>
+			<li>
+				<div>
+					<label for="unac-comment">UNAC COMMENT</label>
+				</div>
 				<input type="text" id="unac-comment" namme="unac-comment"  maxlength="20">
-			</div>
-		</li>
-		
-		<li>
-			<div class="box">
-				<label for="url">共有用URL</label>
-				<input type="url" id="url" name="url" readonly>
-				<button id="copy-button">コピー</button>
-				<div id="copy-button-message">コピーしました</div>
-			</div>
-		</li>
-		
-		<li>
-			<div class="space-between">
-				<div class="box">
-					<label for="total-cost">トータルコスト</label>
+			</li>
+			<li>
+				<div>
+					<label for="url">共有用URL</label>
+				</div>
+					<input type="url" id="url" name="url" readonly>
+					<button id="copy-button">コピー</button>
+			</li>
+			<li>
+				<div>
+					<div>
+						<label for="total-cost">トータルコスト</label>
+					</div>
 					<input type="number" id="total-cost" name="total-cost" value="0" readonly>
 				</div>
-				<button id="all-delete-button">全削除</button>
-			</div>
-		</li>
-		
+			</li>
+		</ul>
+		<button id="all-delete-button">全削除</button>
+	</div>
+	<ul>
 		<li>
 			<fieldset id="pattern1">
 				<legend>

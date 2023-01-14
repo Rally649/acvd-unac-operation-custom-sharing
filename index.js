@@ -125,7 +125,8 @@
 		let chipNames = getValues('.name-area');
 		let parameters = getValues('.parameter-area input, .parameter-area range, .parameter-area select');
 		
-		let url = new URL(location.protocol + location.host);
+		let url = new URL('file:///D:/webアプリ/ACVD%20UNACオペレーションカスタム共有ツール/index.html');
+		//let url = new URL(location.protocol + location.host);
 		url.searchParams.append('unac-comment', unacComment);
 		let append = (array, name) => array.forEach((value, index) => {
 			if (value != 99){
@@ -225,10 +226,8 @@
 	let copyButton = document.getElementById('copy-button');
 	copyButton.onclick = () => {
 		let url = document.getElementById('url');
-		let message = document.getElementById('copy-button-message');
 		navigator.clipboard.writeText(url.value).then(() => {
-			message.style.display = 'block';
-			setTimeout(() => message.style.display = 'none', 2000);
+			window.alert('コピーしました');
 		});
 	};
 	

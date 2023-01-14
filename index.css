@@ -1,12 +1,10 @@
 ﻿ul {
 	list-style: none;
 	padding-left: 0;
+	margin: 0;
 }
 li {
 	margin: 0.25rem;
-}
-legend {
-	font-size: 0.75rem;
 }
 label {
 	width: 10rem;
@@ -22,6 +20,7 @@ label {
 .space-between {
 	display: flex;
 	justify-content: space-between;
+	align-items: end;
 }
 .chip-area:nth-child(n+3) {
 	display: none;
@@ -52,27 +51,28 @@ label {
 	width: 5rem;
 }
 #unac-comment {
-	width: 20rem;
-}
-#copy-button-message {
-	display: none;
+	width: 22rem;
 }
 #url {
-	width: 20rem;
+	width: 22rem;
+}
+#all-delete-button {
+	height: 1.6rem;
+	white-space: nowrap;
 }
 #cost1, #cost2, #cost3, #total-cost {
 	width: 5rem;
 }
 #pattern1 {
 	background-color: #FFEEEE;
-	border-width: thick;
 }
 #pattern2 {
 	background-color: #EEFFEE;
-	border-width: thick;
 }
 #pattern3 {
 	background-color: #EEEEFF;
+}
+#pattern1 , #pattern2, #pattern3 {
 	border-width: thick;
 }
 
