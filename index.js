@@ -125,8 +125,7 @@
 		let chipNames = getValues('.name-area');
 		let parameters = getValues('.parameter-area input, .parameter-area range, .parameter-area select');
 		
-		let host = 'file:///D:/webアプリ/ACVD%20UNACオペレーションカスタム共有ツール/index.html';
-		//let host = location.host;
+		let host = location.host;
 		let url = new URL(host);
 		url.searchParams.append('unac-comment', unacComment);
 		let append = (array, name) => array.forEach((value, index) => {
