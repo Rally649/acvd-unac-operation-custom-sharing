@@ -6,6 +6,1308 @@
 	<script src="index.js"></script>
 </head>
 <body>
-	<h1>ACVD UNACオペレーションカスタム共有ツール</h1>
+	<ul>
+		<li>
+			<div class="box">
+				<label for="unac-comment">UNAC COMMENT</label>
+				<input type="text" id="unac-comment" namme="unac-comment"  maxlength="20">
+			</div>
+		</li>
+		
+		<li>
+			<div class="box">
+				<label for="url">共有用URL</label>
+				<input type="url" id="url" name="url" readonly>
+				<button id="copy-button">コピー</button>
+				<div id="copy-button-message">コピーしました</div>
+			</div>
+		</li>
+		
+		<li>
+			<div class="space-between">
+				<div class="box">
+					<label for="total-cost">トータルコスト</label>
+					<input type="number" id="total-cost" name="total-cost" value="0" readonly>
+				</div>
+				<button id="all-delete-button">全削除</button>
+			</div>
+		</li>
+		
+		<li>
+			<fieldset id="pattern1">
+				<legend>
+					オペレーション1
+					<input type="number" id="cost1" name="cost1" min="0" max="50000" placeholder="コスト">
+				</legend>
+				<fieldset class="dummy-fieldset">
+					<fieldset class="start-chip-area">
+						<legend>オペレーション層</legend>
+						<select class="name-area">
+							<option value="0">UNAC START</option>
+						</select>
+					</fieldset>
+				</fieldset>
+				<div>
+					<fieldset class="moving box">
+						<legend>移動</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="right-arm box">
+						<legend>右腕部攻撃</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="left-arm box">
+						<legend>左腕部攻撃</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="shoulder box">
+						<legend>肩部攻撃</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="recognition box">
+						<legend>認識</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="target-evaluation box">
+						<legend>ターゲット評価</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="dodge box">
+						<legend>回避</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="special-moving box">
+						<legend>特殊移動</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="special-action box">
+						<legend>特殊行動</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+				</div>
+			</fieldset>
+		</li>
+		<li>
+			<fieldset id="pattern2">
+				<legend>
+					オペレーション2
+					<input type="number" id="cost2" name="cost2" min="0" max="50000" placeholder="コスト">
+				</legend>
+				<fieldset class="dummy-fieldset">
+					<fieldset class="operation">
+						<legend>オペレーション層</legend>
+						<div class="chip-area">
+							<select class="name-area"></select>
+							<div class="group-area"></div>
+							<div class="message-area"></div>
+							<div class="parameter-area"></div>
+						</div>
+					</fieldset>
+				</fieldset>
+				<div>
+					<fieldset class="moving box">
+						<legend>移動</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="right-arm box">
+						<legend>右腕部攻撃</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="left-arm box">
+						<legend>左腕部攻撃</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="shoulder box">
+						<legend>肩部攻撃</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="recognition box">
+						<legend>認識</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="target-evaluation box">
+						<legend>ターゲット評価</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="dodge box">
+						<legend>回避</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="special-moving box">
+						<legend>特殊移動</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="special-action box">
+						<legend>特殊行動</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+				</div>
+			</fieldset>
+		</li>
+		<li>
+			<fieldset id="pattern3">
+				<legend>
+					オペレーション3
+					<input type="number" id="cost3" name="cost3" min="0" max="50000" placeholder="コスト">
+				</legend>
+				<fieldset class="dummy-fieldset">
+					<fieldset class="operation">
+						<legend>オペレーション層</legend>
+						<div class="chip-area">
+							<select class="name-area"></select>
+							<div class="group-area"></div>
+							<div class="message-area"></div>
+							<div class="parameter-area"></div>
+						</div>
+					</fieldset>
+				</fieldset>
+				<div>
+					<fieldset class="moving box">
+						<legend>移動</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="right-arm box">
+						<legend>右腕部攻撃</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="left-arm box">
+						<legend>左腕部攻撃</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="shoulder box">
+						<legend>肩部攻撃</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="recognition box">
+						<legend>認識</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="target-evaluation box">
+						<legend>ターゲット評価</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="dodge box">
+						<legend>回避</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="special-moving box">
+						<legend>特殊移動</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+					<fieldset class="special-action box">
+						<legend>特殊行動</legend>
+						<fieldset class="category">
+							<legend>カテゴリ層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+						<fieldset class="action box">
+							<legend>アクション層</legend>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+							<div class="chip-area">
+								<select class="name-area"></select>
+								<div class="group-area"></div>
+								<div class="message-area"></div>
+								<div class="parameter-area"></div>
+							</div>
+						</fieldset>
+					</fieldset>
+				</div>
+			</fieldset>
+		</li>
+	</ul>
 </body>
 </html>

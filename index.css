@@ -1,1 +1,90 @@
-﻿
+﻿ul {
+	list-style: none;
+	padding-left: 0;
+}
+li {
+	margin: 0.25rem;
+}
+legend {
+	font-size: 0.75rem;
+}
+label {
+	width: 10rem;
+}
+*[readonly] {
+	background-color: #E0E0E0;
+	border-color: #A0A0A0;
+}
+.box {
+	display: flex;
+	flex-wrap: wrap;
+}
+.space-between {
+	display: flex;
+	justify-content: space-between;
+}
+.chip-area:nth-child(n+3) {
+	display: none;
+}
+.chip-area, .start-chip-area {
+	width: 20rem;
+	min-height: 8rem;
+}
+.name-area {
+	width: 19rem;
+	margin: 0.25rem;
+}
+.group-area {
+	margin: 0.25rem;
+	font-weight: bold;
+}
+.message-area {
+	width: 19rem;
+	height: 6rem;
+	margin: 0.25rem;
+}
+.parameter-area {
+	margin: 0.25rem;
+	border-left: double;
+	border-color: grey;
+}
+.parameter-area input[type="number"] {
+	width: 5rem;
+}
+#unac-comment {
+	width: 20rem;
+}
+#copy-button-message {
+	display: none;
+}
+#url {
+	width: 20rem;
+}
+#cost1, #cost2, #cost3, #total-cost {
+	width: 5rem;
+}
+#pattern1 {
+	background-color: #FFEEEE;
+	border-width: thick;
+}
+#pattern2 {
+	background-color: #EEFFEE;
+	border-width: thick;
+}
+#pattern3 {
+	background-color: #EEEEFF;
+	border-width: thick;
+}
+
+.moving, .right-arm, .left-arm, .shoulder, .recognition, .target-evaluation, .dodge, .special-moving, .special-action, .dummy-fieldset{
+	border-width: medium;
+	border-style: dashed;
+}
+
+.dummy-fieldset {
+	border-color: transparent;
+}
+
+.operation {
+	width: fit-content;
+}
