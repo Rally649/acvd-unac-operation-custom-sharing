@@ -34,14 +34,18 @@
 					
 					let fix = v => Number.parseFloat(v).toFixed(isInteger ? 0 : 1);
 					
-					range.onchange = () => {
+					range.onchange = event => {
 						input.value = fix(range.value);
-						updateURL();
+						if (event.isTrusted){
+							updateURL();
+						}
 					};
-					input.onchange = () => {
+					input.onchange = event => {
 						input.value = fix(Math.min(max, Math.max(min, input.value)));
 						range.value = input.value
-						updateURL();
+						if (event.isTrusted){
+							updateURL();
+						}
 					};
 					
 					div.appendChild(range);
@@ -54,7 +58,11 @@
 					parameter.values.forEach((value, index) => {
 						select.appendChild(create('option', {innerText: value, value: index, selected: value == parameter.default}));
 					});
-					select.onchange = updateURL;
+					select.onchange = event => {
+						if (event.isTrusted){
+							updateURL();
+						}
+					};
 					return select;
 				}
 				
@@ -102,7 +110,9 @@
 						}
 					});
 				}
-				updateURL();
+				if (event.isTrusted){
+					updateURL();
+				}
 			};
 		}
 		
@@ -199,6 +209,7 @@
 			let key = 'p' + index;
 			parameter.value = url.searchParams.get(key);
 		});
+		
 		updateURL();
 	}
 	
@@ -211,15 +222,21 @@
 	});
 	
 	let unacComment = document.getElementById('unac-comment');
-	unacComment.onchange = updateURL;
+	unacComment.onchange = event => {
+		if (event.isTrusted){
+			updateURL();
+		}
+	};
 	
 	let totalCost = document.getElementById('total-cost');
 	let costs = ['cost1', 'cost2', 'cost3'].map(id => document.getElementById(id));
 	costs.forEach(cost => {
-		cost.onchange = () => {
+		cost.onchange = event => {
 			let values = costs.filter(cost => isNumber(cost.value)).map(cost => Number.parseInt(cost.value));
 			totalCost.value = values.length > 0 ? values.reduce((total, value) => total + value) : 0;
-			updateURL();
+			if (event.isTrusted){
+				updateURL();
+			}
 		};
 	});
 	
