@@ -6,9 +6,6 @@
 li {
 	margin: 0.25rem;
 }
-label {
-	width: 10rem;
-}
 *[readonly] {
 	background-color: #E0E0E0;
 	border-color: #A0A0A0;
@@ -55,6 +52,9 @@ label {
 }
 #url {
 	width: 22rem;
+}
+#copy-button-message {
+	display: none;
 }
 #all-delete-button {
 	height: 1.6rem;

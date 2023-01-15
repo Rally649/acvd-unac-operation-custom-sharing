@@ -225,7 +225,11 @@
 	copyButton.onclick = () => {
 		let url = document.getElementById('url');
 		navigator.clipboard.writeText(url.value).then(() => {
-			window.alert('コピーしました');
+			let message = document.getElementById('copy-button-message');
+			message.style.display = 'inline';
+			setTimeout(() => {
+				message.style.display = 'none';
+			}, 2000);
 		});
 	};
 	
