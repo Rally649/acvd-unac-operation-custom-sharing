@@ -125,7 +125,7 @@
 		let chipNames = getValues('.name-area');
 		let parameters = getValues('.parameter-area input, .parameter-area range, .parameter-area select');
 		
-		let url = new URL(location.protocol + location.host);
+		let url = new URL(location.origin + location.pathname);
 		url.searchParams.append('unac-comment', unacComment);
 		let append = (array, name) => array.forEach((value, index) => {
 			if (value != 99){
@@ -203,8 +203,7 @@
 	var regexp = new RegExp(/^[-]?([1-9]\d*|0)(\.\d+)?$/);
 	let isNumber = v => regexp.test(v);
 	
-	let url = 'https://rally649.github.io/acvd-unac-operation-custom-sharing/chips.json';
-	fetch(url).then(response => response.json()).then(chips => {
+	fetch('https://rally649.github.io/acvd-unac-operation-custom-sharing/chips.json').then(response => response.json()).then(chips => {
 		loadJson(chips);
 		loadURL();
 	});
