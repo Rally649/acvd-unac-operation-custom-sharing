@@ -54,6 +54,7 @@
 					parameter.values.forEach((value, index) => {
 						select.appendChild(create('option', {innerText: value, value: index, selected: value == parameter.default}));
 					});
+					select.onchange = updateURL;
 					return select;
 				}
 				
