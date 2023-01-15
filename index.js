@@ -266,5 +266,6 @@
 			deleteValues('#unac-comment, #cost1, #cost2, #cost3', '');
 			deleteValues('.name-area', '99');
 		}
+		updateURL();
 	};
 }
