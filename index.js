@@ -198,6 +198,7 @@
 			let key = 'p' + index;
 			parameter.value = url.searchParams.get(key);
 		});
+		updateURL();
 	}
 	
 	var regexp = new RegExp(/^[-]?([1-9]\d*|0)(\.\d+)?$/);
