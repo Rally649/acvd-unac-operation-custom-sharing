@@ -23,11 +23,11 @@ li {
 	display: none;
 }
 .chip-area, .start-chip-area {
-	width: 20rem;
+	width: 21rem;
 	min-height: 8rem;
 }
 .name-area {
-	width: 19rem;
+	width: 20rem;
 	margin: 0.25rem;
 }
 .group-area {
@@ -35,7 +35,7 @@ li {
 	font-weight: bold;
 }
 .message-area {
-	width: 19rem;
+	width: 20rem;
 	height: 6rem;
 	margin: 0.25rem;
 }
