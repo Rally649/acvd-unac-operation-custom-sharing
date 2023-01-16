@@ -134,22 +134,26 @@
 		let unacComment = document.getElementById('unac-comment').value;
 		let costs = getValues('#cost1, #cost2, #cost3');
 		let chipNames = getValues('.name-area');
-		let parameters = getValues('.parameter-area input, .parameter-area range, .parameter-area select');
+		let parameters = getValues('.parameter-area input, .parameter-area select');
 		
 		let url = new URL(location.origin + location.pathname);
-		url.searchParams.append('unac-comment', unacComment);
-		let append = (array, name) => array.forEach((value, index) => {
-			if (value != 99){
-				url.searchParams.append(name + index, value);
+		
+		let append = (key, value) => {
+			if (value != '' && value != '99'){
+				url.searchParams.append(key, value);
 			}
-		});
-		append(costs, 'c');
-		append(chipNames, 'n');
-		append(parameters, 'p');
+		};
+		
+		append('unac-comment', unacComment);
+		costs.forEach((cost, i) => append('c' + i, cost));
+		chipNames.forEach((name, index) => append('n' + index, name));
+		append('parameters', parameters.join('_'));
+		append('ver', '1.1');
+		
 		document.getElementById('url').value = url.href;
 	}
 	
-	function loadJson(chips){
+	function loadJSON(chips){
 		function createArea(wholeArea){
 			let area = {
 				chip      : wholeArea,
@@ -204,11 +208,21 @@
 			}
 		});
 		
-		let parameters = Array.from(document.querySelectorAll('.parameter-area input, .parameter-area range, .parameter-area select'));
-		parameters.forEach((parameter, index) => {
-			let key = 'p' + index;
-			parameter.value = url.searchParams.get(key);
-		});
+		if (url.searchParams.get('ver') == '1.1'){
+			let parameters = Array.from(document.querySelectorAll('.parameter-area input, .parameter-area select'));
+			if (url.searchParams.has('parameters')){
+				url.searchParams.get('parameters').split('_').forEach((value, index) => {
+					parameters[index].value = value;
+					parameters[index].dispatchEvent(new Event('change'));
+				});
+			}
+		}else{
+			let parameters = Array.from(document.querySelectorAll('.parameter-area input, .parameter-area range, .parameter-area select'));
+			parameters.forEach((parameter, index) => {
+				let key = 'p' + index;
+				parameter.value = url.searchParams.get(key);
+			});
+		}
 		
 		updateURL();
 	}
@@ -217,7 +231,7 @@
 	let isNumber = v => regexp.test(v);
 	
 	fetch('https://rally649.github.io/acvd-unac-operation-custom-sharing/chips.json').then(response => response.json()).then(chips => {
-		loadJson(chips);
+		loadJSON(chips);
 		loadURL();
 	});
 	
