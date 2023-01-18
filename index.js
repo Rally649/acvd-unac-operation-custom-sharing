@@ -23,7 +23,6 @@
 			
 			function createInput(parameter){
 				function createNumberInput(){
-					let div = create('div');
 					let min = parameter.values[0];
 					let max = parameter.values[1];
 					let value = parameter.default;
@@ -48,6 +47,7 @@
 						}
 					};
 					
+					let div = create('div');
 					div.appendChild(range);
 					div.appendChild(input);
 					return div;
@@ -63,6 +63,7 @@
 							updateURL();
 						}
 					};
+					
 					return select;
 				}
 				
@@ -130,11 +131,7 @@
 	}
 	
 	function updateURL(){
-		let getValues = query => Array.from(document.querySelectorAll(query)).map(element => element.value);
-		let unacComment = document.getElementById('unac-comment').value;
-		let costs = getValues('#cost1, #cost2, #cost3');
-		let chipNames = getValues('.name-area');
-		let parameters = getValues('.parameter-area input, .parameter-area select');
+		let getElements = query => Array.from(document.querySelectorAll(query));
 		
 		let url = new URL(location.origin + location.pathname);
 		
@@ -144,11 +141,19 @@
 			}
 		};
 		
+		let unacComment = document.getElementById('unac-comment').value;
 		append('unac-comment', unacComment);
-		costs.forEach((cost, i) => append('c' + i, cost));
-		chipNames.forEach((name, index) => append('n' + index, name));
-		append('parameters', parameters.join('_'));
-		append('ver', '1.1');
+		
+		let costs = getElements('#cost1, #cost2, #cost3');
+		costs.forEach((cost, i) => append('c' + i, cost.value));
+		
+		let chipNames = getElements('.name-area');
+		chipNames.forEach((name, index) => append('n' + index, name.value));
+		
+		let parameters = getElements('.parameter-area input[type=number], .parameter-area select');
+		append('parameters', parameters.map(p => p.value).join('_'));
+		
+		append('ver', '1.2');
 		
 		document.getElementById('url').value = url.href;
 	}
@@ -208,8 +213,17 @@
 			}
 		});
 		
-		if (url.searchParams.get('ver') == '1.1'){
-			let parameters = Array.from(document.querySelectorAll('.parameter-area input, .parameter-area select'));
+		let ver = url.searchParams.get('ver');
+		if (ver == '1.2'){
+			let parameters = Array.from(document.querySelectorAll('.parameter-area input[type=number], .parameter-area select'));
+			if (url.searchParams.has('parameters')){
+				url.searchParams.get('parameters').split('_').forEach((value, index) => {
+					parameters[index].value = value;
+					parameters[index].dispatchEvent(new Event('change'));
+				});
+			}
+		}else if (ver == '1.1'){
+			let parameters = Array.from(document.querySelectorAll('.parameter-area input[type=range], .parameter-area input[type=number], .parameter-area select'));
 			if (url.searchParams.has('parameters')){
 				url.searchParams.get('parameters').split('_').forEach((value, index) => {
 					parameters[index].value = value;
@@ -217,7 +231,7 @@
 				});
 			}
 		}else{
-			let parameters = Array.from(document.querySelectorAll('.parameter-area input, .parameter-area range, .parameter-area select'));
+			let parameters = Array.from(document.querySelectorAll('.parameter-area input[type=range], .parameter-area input[type=number], .parameter-area select'));
 			parameters.forEach((parameter, index) => {
 				let key = 'p' + index;
 				parameter.value = url.searchParams.get(key);
